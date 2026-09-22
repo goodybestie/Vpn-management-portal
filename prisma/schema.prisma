@@ -1,0 +1,77 @@
+// Foundation Polytechnic, Ikot Edem, Ikot Ekpene, Akwa Ibom State, Nigeria
+// VPN Management and Traffic Auditing Portal
+// Prisma Schema with SQLite datasource
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Admin {
+  id           String   @id @default(cuid())
+  name         String
+  email        String   @unique
+  passwordHash String
+  role         String   @default("ADMIN")
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model VpnProfile {
+  id               String            @id @default(cuid())
+  name             String
+  studentId        String            @unique
+  email            String
+  phone            String?
+  department       String?
+  description      String?
+  vpnIp            String            @unique
+  publicKey        String            @unique
+  privateKey       String?
+  status           String            @default("ACTIVE") // ACTIVE, REVOKED, DISABLED
+  createdAt        DateTime          @default(now())
+  updatedAt        DateTime          @updatedAt
+  revokedAt        DateTime?
+  lastHandshake    DateTime?
+  bytesReceived    BigInt            @default(0)
+  bytesSent        BigInt            @default(0)
+  isConnected      Boolean           @default(false)
+  endpoint         String?
+  trafficSnapshots TrafficSnapshot[]
+}
+
+model AuditLog {
+  id          String   @id @default(cuid())
+  action      String
+  description String
+  actor       String?
+  targetType  String?
+  targetId    String?
+  metadata    String?
+  createdAt   DateTime @default(now())
+}
+
+model TrafficSnapshot {
+  id            String     @id @default(cuid())
+  vpnProfileId  String
+  bytesReceived BigInt     @default(0)
+  bytesSent     BigInt     @default(0)
+  timestamp     DateTime   @default(now())
+  vpnProfile    VpnProfile @relation(fields: [vpnProfileId], references: [id], onDelete: Cascade)
+}
+
+model AdminSession {
+  id        String   @id
+  adminId   String
+  email     String
+  name      String
+  role      String
+  ipAddress String?
+  userAgent String?
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+}

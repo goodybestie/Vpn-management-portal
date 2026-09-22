@@ -1,0 +1,6 @@
+{
+  "name": "Foundation Poly VPN Portal",
+  "description": "Web-based management portal for efficient VPN profile administration and traffic auditing at Foundation Polytechnic, Ikot Edem, Ikot Ekpene, Akwa Ibom State, Nigeria.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

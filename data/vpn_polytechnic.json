@@ -1,0 +1,3624 @@
+{
+  "profiles": [
+    {
+      "id": "prof-fp-001",
+      "fullName": "Bassey Emmanuel Okon",
+      "studentId": "FP/ND/CS/22/041",
+      "department": "Computer Science",
+      "email": "emmanuel.okon@foundationpoly.edu.ng",
+      "phone": "+234 803 412 8901",
+      "description": "Final Year Project Lead - IoT Network Lab",
+      "vpnIp": "10.8.0.2",
+      "publicKey": "uY3bB7H+9n2zFm1XW8kQ0p4r5t6v7w8x9y0z1a2b3c4=",
+      "status": "active",
+      "createdAt": "2026-09-18T13:29:49.382Z",
+      "updatedAt": "2026-09-21T14:32:25.166Z",
+      "lastHandshake": "2026-09-21T14:32:19.000Z",
+      "bytesReceived": 1421051571,
+      "bytesSent": 389408262,
+      "isConnected": true,
+      "endpoint": "105.112.45.18:41230"
+    },
+    {
+      "id": "prof-fp-002",
+      "fullName": "Udoh Anietie Sunday",
+      "studentId": "FP/HND/EE/23/018",
+      "department": "Electrical / Electronic Engineering",
+      "email": "anietie.udoh@foundationpoly.edu.ng",
+      "phone": "+234 814 590 3211",
+      "description": "Telecommunication & Embedded Systems Lab",
+      "vpnIp": "10.8.0.3",
+      "publicKey": "wK9pL2eNmR4tUvXyZa1B3cD5fG7hI9jK0lM2nO4pQ6r=",
+      "status": "active",
+      "createdAt": "2026-09-18T13:29:49.382Z",
+      "updatedAt": "2026-09-21T14:32:25.167Z",
+      "lastHandshake": "2026-09-21T14:31:54.000Z",
+      "bytesReceived": 650735041,
+      "bytesSent": 195712465,
+      "isConnected": true,
+      "endpoint": "197.210.8.92:58190"
+    },
+    {
+      "id": "prof-fp-003",
+      "fullName": "Akpan Blessing Effiong",
+      "studentId": "FP/ND/SLT/22/104",
+      "department": "Science Laboratory Technology",
+      "email": "blessing.akpan@foundationpoly.edu.ng",
+      "phone": "+234 902 334 7820",
+      "description": "Microbiology Research Database Access",
+      "vpnIp": "10.8.0.4",
+      "publicKey": "qR7sT8uV9wX0yZ1a2B3cD4eF5gH6iJ7kL8mN9oP0qR1=",
+      "status": "active",
+      "createdAt": "2026-09-20T13:29:49.382Z",
+      "updatedAt": "2026-09-21T14:32:25.168Z",
+      "lastHandshake": "2026-09-21T14:31:53.000Z",
+      "bytesReceived": 320728369,
+      "bytesSent": 84390976,
+      "isConnected": true,
+      "endpoint": "102.89.34.12:49320"
+    },
+    {
+      "id": "prof-fp-004",
+      "fullName": "Dr. Archibong Kufre Idiong",
+      "studentId": "STAFF/FP/ICT/007",
+      "department": "ICT & Academic Computing Directorate",
+      "email": "k.archibong@foundationpoly.edu.ng",
+      "phone": "+234 802 889 1245",
+      "description": "Systems Administrator - Campus Core Network",
+      "vpnIp": "10.8.0.5",
+      "publicKey": "zX1c2V3b4N5m6A7s8D9f0G1h2J3k4L5p6O7i8U9y0T1=",
+      "status": "active",
+      "createdAt": "2026-09-18T13:29:49.382Z",
+      "updatedAt": "2026-09-21T14:32:25.169Z",
+      "lastHandshake": "2026-09-21T14:31:50.000Z",
+      "bytesReceived": 890980807,
+      "bytesSent": 412799835,
+      "isConnected": true,
+      "endpoint": "105.112.98.54:52110"
+    },
+    {
+      "id": "prof-fp-005",
+      "fullName": "Etukudo Samuel Friday",
+      "studentId": "FP/ND/ACC/22/073",
+      "department": "Accountancy",
+      "email": "samuel.etukudo@foundationpoly.edu.ng",
+      "phone": "+234 703 118 4590",
+      "description": "Bursary Department Portal Access",
+      "vpnIp": "10.8.0.6",
+      "publicKey": "mN1bV2cX3zA4sD5fG6hJ7kL8pO9iU0yT1rE2wQ3a4S5=",
+      "status": "inactive",
+      "createdAt": "2026-09-18T13:29:49.382Z",
+      "updatedAt": "2026-09-20T13:29:49.382Z",
+      "lastHandshake": "2026-09-20T13:29:49.382Z",
+      "bytesReceived": 45012030,
+      "bytesSent": 12045000,
+      "isConnected": false
+    },
+    {
+      "id": "prof-fp-006",
+      "fullName": "Umanah Mfonobong Patrick",
+      "studentId": "FP/HND/BAM/23/055",
+      "department": "Business Administration & Management",
+      "email": "mfon.umanah@foundationpoly.edu.ng",
+      "phone": "+234 813 902 4471",
+      "description": "Post-Graduation Clearance - Access Terminated",
+      "vpnIp": "10.8.0.7",
+      "publicKey": "bC3dE4fG5hI6jK7lM8nO9pQ0rS1tU2vW3xY4zA5bC6d=",
+      "status": "revoked",
+      "createdAt": "2026-09-18T13:29:49.382Z",
+      "updatedAt": "2026-09-20T13:29:49.382Z",
+      "lastHandshake": null,
+      "bytesReceived": 10450000,
+      "bytesSent": 3410000,
+      "isConnected": false
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-1790000306792-1lmi8",
+      "timestamp": "2026-09-21T14:18:26.792Z",
+      "eventType": "admin_login_success",
+      "adminEmail": "admin@foundationpoly.edu.ng",
+      "description": "Administrator System Administrator (admin@foundationpoly.edu.ng) authenticated successfully",
+      "ipAddress": "2605:59c1:19ac:4010:3115:a72b:e8da:c762",
+      "severity": "success",
+      "metadata": {
+        "adminId": "admin-fp-001",
+        "role": "ADMIN",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+      }
+    },
+    {
+      "id": "log-001",
+      "timestamp": "2026-09-21T13:25:49.382Z",
+      "eventType": "client_connected",
+      "profileId": "prof-fp-001",
+      "profileName": "Bassey Emmanuel Okon",
+      "description": "WireGuard handshake completed successfully from 105.112.45.18:41230",
+      "ipAddress": "10.8.0.2",
+      "severity": "success"
+    },
+    {
+      "id": "log-002",
+      "timestamp": "2026-09-21T13:14:49.382Z",
+      "eventType": "client_connected",
+      "profileId": "prof-fp-004",
+      "profileName": "Dr. Archibong Kufre Idiong",
+      "description": "Admin remote session tunnel verified on port 51820",
+      "ipAddress": "10.8.0.5",
+      "severity": "info"
+    },
+    {
+      "id": "log-003",
+      "timestamp": "2026-09-21T12:44:49.382Z",
+      "eventType": "config_generated",
+      "profileId": "prof-fp-003",
+      "profileName": "Akpan Blessing Effiong",
+      "description": "WireGuard .conf file and mobile QR code dispatched to student",
+      "ipAddress": "10.8.0.4",
+      "severity": "info"
+    },
+    {
+      "id": "log-004",
+      "timestamp": "2026-09-21T10:29:49.382Z",
+      "eventType": "profile_created",
+      "profileId": "prof-fp-003",
+      "profileName": "Akpan Blessing Effiong",
+      "description": "VPN Profile authorized by Chief Security Officer for SLT department",
+      "ipAddress": "10.8.0.4",
+      "severity": "success"
+    },
+    {
+      "id": "log-005",
+      "timestamp": "2026-09-20T19:29:49.382Z",
+      "eventType": "profile_revoked",
+      "profileId": "prof-fp-006",
+      "profileName": "Umanah Mfonobong Patrick",
+      "description": "Revoked VPN peer entry upon graduation clearance certificate issuance",
+      "ipAddress": "10.8.0.7",
+      "severity": "warning"
+    },
+    {
+      "id": "log-006",
+      "timestamp": "2026-09-20T11:29:49.382Z",
+      "eventType": "server_started",
+      "description": "Foundation Polytechnic WireGuard VPN service started on Windows host (interface wg0:51820)",
+      "severity": "info"
+    }
+  ],
+  "trafficSnapshots": [
+    {
+      "id": "snap-1790001145170-tx6i1",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:32:25.170Z",
+      "bytesReceived": 3328507818,
+      "bytesSent": 1094356538,
+      "totalBytes": 4422864356
+    },
+    {
+      "id": "snap-1790001135168-9pgi2",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:32:15.168Z",
+      "bytesReceived": 3328476388,
+      "bytesSent": 1094344768,
+      "totalBytes": 4422821156
+    },
+    {
+      "id": "snap-1790001125168-m2iiz",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:32:05.168Z",
+      "bytesReceived": 3328449554,
+      "bytesSent": 1094334361,
+      "totalBytes": 4422783915
+    },
+    {
+      "id": "snap-1790001115168-5awo2",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:31:55.168Z",
+      "bytesReceived": 3328428601,
+      "bytesSent": 1094322181,
+      "totalBytes": 4422750782
+    },
+    {
+      "id": "snap-1790001105166-cmcsm",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:31:45.166Z",
+      "bytesReceived": 3328403903,
+      "bytesSent": 1094310281,
+      "totalBytes": 4422714184
+    },
+    {
+      "id": "snap-1790001095166-lyuuo",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:31:35.166Z",
+      "bytesReceived": 3328371070,
+      "bytesSent": 1094300775,
+      "totalBytes": 4422671845
+    },
+    {
+      "id": "snap-1790001085166-gd94f",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:31:25.165Z",
+      "bytesReceived": 3328354400,
+      "bytesSent": 1094283270,
+      "totalBytes": 4422637670
+    },
+    {
+      "id": "snap-1790001075164-css1t",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:31:15.164Z",
+      "bytesReceived": 3328329605,
+      "bytesSent": 1094274197,
+      "totalBytes": 4422603802
+    },
+    {
+      "id": "snap-1790001065162-0rae5",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:31:05.162Z",
+      "bytesReceived": 3328302750,
+      "bytesSent": 1094259763,
+      "totalBytes": 4422562513
+    },
+    {
+      "id": "snap-1790001055162-bv3f4",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:30:55.162Z",
+      "bytesReceived": 3328280071,
+      "bytesSent": 1094250980,
+      "totalBytes": 4422531051
+    },
+    {
+      "id": "snap-1790001045160-9x6ba",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:30:45.160Z",
+      "bytesReceived": 3328252645,
+      "bytesSent": 1094241246,
+      "totalBytes": 4422493891
+    },
+    {
+      "id": "snap-1790001035158-bnzez",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:30:35.158Z",
+      "bytesReceived": 3328227620,
+      "bytesSent": 1094232906,
+      "totalBytes": 4422460526
+    },
+    {
+      "id": "snap-1790001025156-qboa6",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:30:25.156Z",
+      "bytesReceived": 3328197216,
+      "bytesSent": 1094220942,
+      "totalBytes": 4422418158
+    },
+    {
+      "id": "snap-1790001015157-v3yxh",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:30:15.157Z",
+      "bytesReceived": 3328174393,
+      "bytesSent": 1094204886,
+      "totalBytes": 4422379279
+    },
+    {
+      "id": "snap-1790001005155-ohi4k",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:30:05.155Z",
+      "bytesReceived": 3328144521,
+      "bytesSent": 1094193841,
+      "totalBytes": 4422338362
+    },
+    {
+      "id": "snap-1790000995154-akstg",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:29:55.154Z",
+      "bytesReceived": 3328123554,
+      "bytesSent": 1094181825,
+      "totalBytes": 4422305379
+    },
+    {
+      "id": "snap-1790000985153-surw8",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:29:45.153Z",
+      "bytesReceived": 3328102552,
+      "bytesSent": 1094169715,
+      "totalBytes": 4422272267
+    },
+    {
+      "id": "snap-1790000975152-kajdp",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:29:35.152Z",
+      "bytesReceived": 3328079232,
+      "bytesSent": 1094155548,
+      "totalBytes": 4422234780
+    },
+    {
+      "id": "snap-1790000965151-2eq45",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:29:25.151Z",
+      "bytesReceived": 3328060156,
+      "bytesSent": 1094142121,
+      "totalBytes": 4422202277
+    },
+    {
+      "id": "snap-1790000955151-321a8",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:29:15.151Z",
+      "bytesReceived": 3328023254,
+      "bytesSent": 1094130096,
+      "totalBytes": 4422153350
+    },
+    {
+      "id": "snap-1790000945149-fh94m",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:29:05.149Z",
+      "bytesReceived": 3327995895,
+      "bytesSent": 1094120346,
+      "totalBytes": 4422116241
+    },
+    {
+      "id": "snap-1790000935149-4r9gk",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:28:55.149Z",
+      "bytesReceived": 3327963087,
+      "bytesSent": 1094108445,
+      "totalBytes": 4422071532
+    },
+    {
+      "id": "snap-1790000925148-u660z",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:28:45.148Z",
+      "bytesReceived": 3327938167,
+      "bytesSent": 1094099186,
+      "totalBytes": 4422037353
+    },
+    {
+      "id": "snap-1790000915147-jneap",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:28:35.147Z",
+      "bytesReceived": 3327915317,
+      "bytesSent": 1094087934,
+      "totalBytes": 4422003251
+    },
+    {
+      "id": "snap-1790000905146-8byr6",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:28:25.146Z",
+      "bytesReceived": 3327901737,
+      "bytesSent": 1094071170,
+      "totalBytes": 4421972907
+    },
+    {
+      "id": "snap-1790000895144-ltcyl",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:28:15.144Z",
+      "bytesReceived": 3327878978,
+      "bytesSent": 1094057699,
+      "totalBytes": 4421936677
+    },
+    {
+      "id": "snap-1790000885144-cmlip",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:28:05.144Z",
+      "bytesReceived": 3327854997,
+      "bytesSent": 1094045214,
+      "totalBytes": 4421900211
+    },
+    {
+      "id": "snap-1790000875142-wqmtz",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:27:55.142Z",
+      "bytesReceived": 3327836090,
+      "bytesSent": 1094034943,
+      "totalBytes": 4421871033
+    },
+    {
+      "id": "snap-1790000865142-r304t",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:27:45.142Z",
+      "bytesReceived": 3327819768,
+      "bytesSent": 1094023675,
+      "totalBytes": 4421843443
+    },
+    {
+      "id": "snap-1790000855140-isbwl",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:27:35.140Z",
+      "bytesReceived": 3327794204,
+      "bytesSent": 1094012135,
+      "totalBytes": 4421806339
+    },
+    {
+      "id": "snap-1790000845140-otiq6",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:27:25.140Z",
+      "bytesReceived": 3327780936,
+      "bytesSent": 1093999457,
+      "totalBytes": 4421780393
+    },
+    {
+      "id": "snap-1790000835140-fimdn",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:27:15.140Z",
+      "bytesReceived": 3327756692,
+      "bytesSent": 1093987226,
+      "totalBytes": 4421743918
+    },
+    {
+      "id": "snap-1790000825139-oexst",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:27:05.139Z",
+      "bytesReceived": 3327734694,
+      "bytesSent": 1093974059,
+      "totalBytes": 4421708753
+    },
+    {
+      "id": "snap-1790000815138-68um9",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:26:55.138Z",
+      "bytesReceived": 3327714799,
+      "bytesSent": 1093960014,
+      "totalBytes": 4421674813
+    },
+    {
+      "id": "snap-1790000805138-yt7ta",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:26:45.138Z",
+      "bytesReceived": 3327684306,
+      "bytesSent": 1093950806,
+      "totalBytes": 4421635112
+    },
+    {
+      "id": "snap-1790000795137-tkqa5",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:26:35.137Z",
+      "bytesReceived": 3327661441,
+      "bytesSent": 1093937010,
+      "totalBytes": 4421598451
+    },
+    {
+      "id": "snap-1790000785137-2i07t",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:26:25.137Z",
+      "bytesReceived": 3327635937,
+      "bytesSent": 1093925405,
+      "totalBytes": 4421561342
+    },
+    {
+      "id": "snap-1790000775137-nt48f",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:26:15.137Z",
+      "bytesReceived": 3327614696,
+      "bytesSent": 1093911318,
+      "totalBytes": 4421526014
+    },
+    {
+      "id": "snap-1790000765136-tco51",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:26:05.136Z",
+      "bytesReceived": 3327588531,
+      "bytesSent": 1093896960,
+      "totalBytes": 4421485491
+    },
+    {
+      "id": "snap-1790000755136-1kt6t",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:25:55.136Z",
+      "bytesReceived": 3327554742,
+      "bytesSent": 1093885934,
+      "totalBytes": 4421440676
+    },
+    {
+      "id": "snap-1790000745135-zv3ne",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:25:45.135Z",
+      "bytesReceived": 3327529359,
+      "bytesSent": 1093875517,
+      "totalBytes": 4421404876
+    },
+    {
+      "id": "snap-1790000735135-4jzoq",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:25:35.135Z",
+      "bytesReceived": 3327511139,
+      "bytesSent": 1093867350,
+      "totalBytes": 4421378489
+    },
+    {
+      "id": "snap-1790000725134-91lud",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:25:25.134Z",
+      "bytesReceived": 3327491858,
+      "bytesSent": 1093855136,
+      "totalBytes": 4421346994
+    },
+    {
+      "id": "snap-1790000715133-ysq9k",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:25:15.133Z",
+      "bytesReceived": 3327467706,
+      "bytesSent": 1093843051,
+      "totalBytes": 4421310757
+    },
+    {
+      "id": "snap-1790000705134-3f3ls",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:25:05.134Z",
+      "bytesReceived": 3327443080,
+      "bytesSent": 1093829662,
+      "totalBytes": 4421272742
+    },
+    {
+      "id": "snap-1790000695134-watgd",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:24:55.134Z",
+      "bytesReceived": 3327414687,
+      "bytesSent": 1093818023,
+      "totalBytes": 4421232710
+    },
+    {
+      "id": "snap-1790000685133-5vgjf",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:24:45.133Z",
+      "bytesReceived": 3327388194,
+      "bytesSent": 1093805993,
+      "totalBytes": 4421194187
+    },
+    {
+      "id": "snap-1790000675132-q29jx",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:24:35.132Z",
+      "bytesReceived": 3327357275,
+      "bytesSent": 1093792730,
+      "totalBytes": 4421150005
+    },
+    {
+      "id": "snap-1790000665133-l7406",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:24:25.133Z",
+      "bytesReceived": 3327325764,
+      "bytesSent": 1093781704,
+      "totalBytes": 4421107468
+    },
+    {
+      "id": "snap-1790000655133-ycbhj",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:24:15.133Z",
+      "bytesReceived": 3327303033,
+      "bytesSent": 1093771161,
+      "totalBytes": 4421074194
+    },
+    {
+      "id": "snap-1790000645130-g56es",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:24:05.130Z",
+      "bytesReceived": 3327283293,
+      "bytesSent": 1093754549,
+      "totalBytes": 4421037842
+    },
+    {
+      "id": "snap-1790000635129-1m0sp",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:23:55.129Z",
+      "bytesReceived": 3327260067,
+      "bytesSent": 1093744979,
+      "totalBytes": 4421005046
+    },
+    {
+      "id": "snap-1790000625128-ngl39",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:23:45.128Z",
+      "bytesReceived": 3327230121,
+      "bytesSent": 1093729404,
+      "totalBytes": 4420959525
+    },
+    {
+      "id": "snap-1790000615126-sots2",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:23:35.126Z",
+      "bytesReceived": 3327204060,
+      "bytesSent": 1093719439,
+      "totalBytes": 4420923499
+    },
+    {
+      "id": "snap-1790000605125-dxule",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:23:25.125Z",
+      "bytesReceived": 3327179137,
+      "bytesSent": 1093708960,
+      "totalBytes": 4420888097
+    },
+    {
+      "id": "snap-1790000595125-hgyws",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:23:15.125Z",
+      "bytesReceived": 3327159943,
+      "bytesSent": 1093696251,
+      "totalBytes": 4420856194
+    },
+    {
+      "id": "snap-1790000585125-va7i2",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:23:05.125Z",
+      "bytesReceived": 3327143613,
+      "bytesSent": 1093685822,
+      "totalBytes": 4420829435
+    },
+    {
+      "id": "snap-1790000575124-cg249",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:22:55.124Z",
+      "bytesReceived": 3327124671,
+      "bytesSent": 1093672465,
+      "totalBytes": 4420797136
+    },
+    {
+      "id": "snap-1790000565122-il8tn",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:22:45.122Z",
+      "bytesReceived": 3327095877,
+      "bytesSent": 1093660768,
+      "totalBytes": 4420756645
+    },
+    {
+      "id": "snap-1790000555122-a8tcy",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:22:35.122Z",
+      "bytesReceived": 3327076676,
+      "bytesSent": 1093648189,
+      "totalBytes": 4420724865
+    },
+    {
+      "id": "snap-1790000545121-bhaci",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:22:25.121Z",
+      "bytesReceived": 3327054019,
+      "bytesSent": 1093639666,
+      "totalBytes": 4420693685
+    },
+    {
+      "id": "snap-1790000535120-7i8sy",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:22:15.120Z",
+      "bytesReceived": 3327033298,
+      "bytesSent": 1093626312,
+      "totalBytes": 4420659610
+    },
+    {
+      "id": "snap-1790000525120-occxx",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:22:05.120Z",
+      "bytesReceived": 3327011058,
+      "bytesSent": 1093612378,
+      "totalBytes": 4420623436
+    },
+    {
+      "id": "snap-1790000515118-ef38z",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:21:55.118Z",
+      "bytesReceived": 3326997348,
+      "bytesSent": 1093598878,
+      "totalBytes": 4420596226
+    },
+    {
+      "id": "snap-1790000505117-10bdb",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:21:45.117Z",
+      "bytesReceived": 3326971883,
+      "bytesSent": 1093585634,
+      "totalBytes": 4420557517
+    },
+    {
+      "id": "snap-1790000495117-f1zs9",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:21:35.117Z",
+      "bytesReceived": 3326948344,
+      "bytesSent": 1093576952,
+      "totalBytes": 4420525296
+    },
+    {
+      "id": "snap-1790000485115-l214h",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:21:25.115Z",
+      "bytesReceived": 3326920576,
+      "bytesSent": 1093562839,
+      "totalBytes": 4420483415
+    },
+    {
+      "id": "snap-1790000475114-q05ap",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:21:15.114Z",
+      "bytesReceived": 3326903473,
+      "bytesSent": 1093549506,
+      "totalBytes": 4420452979
+    },
+    {
+      "id": "snap-1790000465114-cowo1",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:21:05.114Z",
+      "bytesReceived": 3326871183,
+      "bytesSent": 1093536099,
+      "totalBytes": 4420407282
+    },
+    {
+      "id": "snap-1790000455114-uylus",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:20:55.114Z",
+      "bytesReceived": 3326839309,
+      "bytesSent": 1093521469,
+      "totalBytes": 4420360778
+    },
+    {
+      "id": "snap-1790000445113-fqkc2",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:20:45.113Z",
+      "bytesReceived": 3326820726,
+      "bytesSent": 1093507236,
+      "totalBytes": 4420327962
+    },
+    {
+      "id": "snap-1790000435113-nzb6c",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:20:35.113Z",
+      "bytesReceived": 3326797019,
+      "bytesSent": 1093497960,
+      "totalBytes": 4420294979
+    },
+    {
+      "id": "snap-1790000425112-rns74",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:20:25.112Z",
+      "bytesReceived": 3326770447,
+      "bytesSent": 1093484529,
+      "totalBytes": 4420254976
+    },
+    {
+      "id": "snap-1790000415111-jfgor",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:20:15.111Z",
+      "bytesReceived": 3326751454,
+      "bytesSent": 1093471173,
+      "totalBytes": 4420222627
+    },
+    {
+      "id": "snap-1790000405110-m5k79",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:20:05.110Z",
+      "bytesReceived": 3326734597,
+      "bytesSent": 1093456304,
+      "totalBytes": 4420190901
+    },
+    {
+      "id": "snap-1790000395109-j1544",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:19:55.109Z",
+      "bytesReceived": 3326707999,
+      "bytesSent": 1093442526,
+      "totalBytes": 4420150525
+    },
+    {
+      "id": "snap-1790000385109-4qllx",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:19:45.109Z",
+      "bytesReceived": 3326682361,
+      "bytesSent": 1093426130,
+      "totalBytes": 4420108491
+    },
+    {
+      "id": "snap-1790000375107-heiez",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:19:35.107Z",
+      "bytesReceived": 3326660432,
+      "bytesSent": 1093415218,
+      "totalBytes": 4420075650
+    },
+    {
+      "id": "snap-1790000365107-hbfbt",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:19:25.107Z",
+      "bytesReceived": 3326638810,
+      "bytesSent": 1093408069,
+      "totalBytes": 4420046879
+    },
+    {
+      "id": "snap-1790000355106-yv427",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:19:15.106Z",
+      "bytesReceived": 3326614258,
+      "bytesSent": 1093396026,
+      "totalBytes": 4420010284
+    },
+    {
+      "id": "snap-1790000345107-5ek51",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:19:05.107Z",
+      "bytesReceived": 3326597869,
+      "bytesSent": 1093377773,
+      "totalBytes": 4419975642
+    },
+    {
+      "id": "snap-1790000335104-r2ajb",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:18:55.104Z",
+      "bytesReceived": 3326576944,
+      "bytesSent": 1093366946,
+      "totalBytes": 4419943890
+    },
+    {
+      "id": "snap-1790000325104-6uvth",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:18:45.104Z",
+      "bytesReceived": 3326558381,
+      "bytesSent": 1093361141,
+      "totalBytes": 4419919522
+    },
+    {
+      "id": "snap-1790000315104-06qw0",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:18:35.104Z",
+      "bytesReceived": 3326531035,
+      "bytesSent": 1093348496,
+      "totalBytes": 4419879531
+    },
+    {
+      "id": "snap-1790000305103-o3jkn",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:18:25.103Z",
+      "bytesReceived": 3326502557,
+      "bytesSent": 1093339866,
+      "totalBytes": 4419842423
+    },
+    {
+      "id": "snap-1790000295102-otspf",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:18:15.102Z",
+      "bytesReceived": 3326476768,
+      "bytesSent": 1093329123,
+      "totalBytes": 4419805891
+    },
+    {
+      "id": "snap-1790000285101-h6opn",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:18:05.101Z",
+      "bytesReceived": 3326463086,
+      "bytesSent": 1093316473,
+      "totalBytes": 4419779559
+    },
+    {
+      "id": "snap-1790000275100-ywf8g",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:17:55.100Z",
+      "bytesReceived": 3326436205,
+      "bytesSent": 1093305757,
+      "totalBytes": 4419741962
+    },
+    {
+      "id": "snap-1790000265100-zb0st",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:17:45.100Z",
+      "bytesReceived": 3326413125,
+      "bytesSent": 1093293233,
+      "totalBytes": 4419706358
+    },
+    {
+      "id": "snap-1790000255099-0kcmt",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:17:35.099Z",
+      "bytesReceived": 3326384120,
+      "bytesSent": 1093279760,
+      "totalBytes": 4419663880
+    },
+    {
+      "id": "snap-1790000245099-1mgks",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:17:25.099Z",
+      "bytesReceived": 3326357270,
+      "bytesSent": 1093268653,
+      "totalBytes": 4419625923
+    },
+    {
+      "id": "snap-1790000235100-u34pw",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:17:15.099Z",
+      "bytesReceived": 3326339104,
+      "bytesSent": 1093257551,
+      "totalBytes": 4419596655
+    },
+    {
+      "id": "snap-1790000213731-gjr01",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:16:53.731Z",
+      "bytesReceived": 3326633438,
+      "bytesSent": 1093395445,
+      "totalBytes": 4420028883
+    },
+    {
+      "id": "snap-1790000203729-m681l",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:16:43.729Z",
+      "bytesReceived": 3326604523,
+      "bytesSent": 1093379966,
+      "totalBytes": 4419984489
+    },
+    {
+      "id": "snap-1790000193728-5ibrh",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:16:33.728Z",
+      "bytesReceived": 3326590188,
+      "bytesSent": 1093373711,
+      "totalBytes": 4419963899
+    },
+    {
+      "id": "snap-1790000183728-g4tee",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:16:23.728Z",
+      "bytesReceived": 3326568387,
+      "bytesSent": 1093364436,
+      "totalBytes": 4419932823
+    },
+    {
+      "id": "snap-1790000173727-5xbln",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:16:13.727Z",
+      "bytesReceived": 3326545939,
+      "bytesSent": 1093357250,
+      "totalBytes": 4419903189
+    },
+    {
+      "id": "snap-1790000163727-2pfp1",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:16:03.727Z",
+      "bytesReceived": 3326518870,
+      "bytesSent": 1093347214,
+      "totalBytes": 4419866084
+    },
+    {
+      "id": "snap-1790000153727-09tjq",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:15:53.727Z",
+      "bytesReceived": 3326491851,
+      "bytesSent": 1093333215,
+      "totalBytes": 4419825066
+    },
+    {
+      "id": "snap-1790000143726-3qb0t",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:15:43.726Z",
+      "bytesReceived": 3326469153,
+      "bytesSent": 1093320163,
+      "totalBytes": 4419789316
+    },
+    {
+      "id": "snap-1790000133723-cyt4h",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:15:33.723Z",
+      "bytesReceived": 3326446480,
+      "bytesSent": 1093307435,
+      "totalBytes": 4419753915
+    },
+    {
+      "id": "snap-1790000123723-7bb6h",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:15:23.723Z",
+      "bytesReceived": 3326419606,
+      "bytesSent": 1093295291,
+      "totalBytes": 4419714897
+    },
+    {
+      "id": "snap-1790000113722-1xisu",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:15:13.722Z",
+      "bytesReceived": 3326390252,
+      "bytesSent": 1093281724,
+      "totalBytes": 4419671976
+    },
+    {
+      "id": "snap-1790000103722-hycu4",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:15:03.722Z",
+      "bytesReceived": 3326364816,
+      "bytesSent": 1093267890,
+      "totalBytes": 4419632706
+    },
+    {
+      "id": "snap-1790000093721-1njps",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:14:53.721Z",
+      "bytesReceived": 3326338202,
+      "bytesSent": 1093254378,
+      "totalBytes": 4419592580
+    },
+    {
+      "id": "snap-1790000069268-rajxz",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:14:29.268Z",
+      "bytesReceived": 3330651204,
+      "bytesSent": 1095420873,
+      "totalBytes": 4426072077
+    },
+    {
+      "id": "snap-1790000059266-ioz22",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:14:19.266Z",
+      "bytesReceived": 3330631531,
+      "bytesSent": 1095412383,
+      "totalBytes": 4426043914
+    },
+    {
+      "id": "snap-1790000049265-bg7pk",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:14:09.265Z",
+      "bytesReceived": 3330603101,
+      "bytesSent": 1095398262,
+      "totalBytes": 4426001363
+    },
+    {
+      "id": "snap-1790000039265-d5kbu",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:13:59.265Z",
+      "bytesReceived": 3330583312,
+      "bytesSent": 1095387914,
+      "totalBytes": 4425971226
+    },
+    {
+      "id": "snap-1790000029264-6zlzm",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:13:49.264Z",
+      "bytesReceived": 3330518549,
+      "bytesSent": 1095359974,
+      "totalBytes": 4425878523
+    },
+    {
+      "id": "snap-1790000019264-uyuis",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:13:39.264Z",
+      "bytesReceived": 3330495512,
+      "bytesSent": 1095347390,
+      "totalBytes": 4425842902
+    },
+    {
+      "id": "snap-1790000009263-3fz80",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:13:29.263Z",
+      "bytesReceived": 3330445205,
+      "bytesSent": 1095322437,
+      "totalBytes": 4425767642
+    },
+    {
+      "id": "snap-1789999999262-93xin",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:13:19.262Z",
+      "bytesReceived": 3330386433,
+      "bytesSent": 1095289728,
+      "totalBytes": 4425676161
+    },
+    {
+      "id": "snap-1789999989262-uu8yv",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:13:09.262Z",
+      "bytesReceived": 3330313823,
+      "bytesSent": 1095250512,
+      "totalBytes": 4425564335
+    },
+    {
+      "id": "snap-1789999979261-idh97",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:12:59.261Z",
+      "bytesReceived": 3330272075,
+      "bytesSent": 1095222500,
+      "totalBytes": 4425494575
+    },
+    {
+      "id": "snap-1789999969252-45sla",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:12:49.252Z",
+      "bytesReceived": 3330203706,
+      "bytesSent": 1095185411,
+      "totalBytes": 4425389117
+    },
+    {
+      "id": "snap-1789999959252-iuqhj",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:12:39.252Z",
+      "bytesReceived": 3330122140,
+      "bytesSent": 1095151151,
+      "totalBytes": 4425273291
+    },
+    {
+      "id": "snap-1789999949251-zytal",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:12:29.251Z",
+      "bytesReceived": 3330067504,
+      "bytesSent": 1095127670,
+      "totalBytes": 4425195174
+    },
+    {
+      "id": "snap-1789999939249-dboaw",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:12:19.249Z",
+      "bytesReceived": 3330010707,
+      "bytesSent": 1095102648,
+      "totalBytes": 4425113355
+    },
+    {
+      "id": "snap-1789999929250-t7o9q",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:12:09.250Z",
+      "bytesReceived": 3329987637,
+      "bytesSent": 1095091614,
+      "totalBytes": 4425079251
+    },
+    {
+      "id": "snap-1789999919249-wbktp",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:11:59.249Z",
+      "bytesReceived": 3329963742,
+      "bytesSent": 1095076468,
+      "totalBytes": 4425040210
+    },
+    {
+      "id": "snap-1789999909249-0s53h",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:11:49.249Z",
+      "bytesReceived": 3329918217,
+      "bytesSent": 1095048909,
+      "totalBytes": 4424967126
+    },
+    {
+      "id": "snap-1789999899249-ck1lh",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:11:39.249Z",
+      "bytesReceived": 3329886217,
+      "bytesSent": 1095039437,
+      "totalBytes": 4424925654
+    },
+    {
+      "id": "snap-1789999889249-1dnci",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:11:29.249Z",
+      "bytesReceived": 3329857473,
+      "bytesSent": 1095029313,
+      "totalBytes": 4424886786
+    },
+    {
+      "id": "snap-1789999879248-xzu0r",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:11:19.248Z",
+      "bytesReceived": 3329833116,
+      "bytesSent": 1095021136,
+      "totalBytes": 4424854252
+    },
+    {
+      "id": "snap-1789999869248-i1hp1",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:11:09.248Z",
+      "bytesReceived": 3329761454,
+      "bytesSent": 1094981018,
+      "totalBytes": 4424742472
+    },
+    {
+      "id": "snap-1789999859247-mee59",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:10:59.247Z",
+      "bytesReceived": 3329718553,
+      "bytesSent": 1094958273,
+      "totalBytes": 4424676826
+    },
+    {
+      "id": "snap-1789999849248-ajvs9",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:10:49.248Z",
+      "bytesReceived": 3329644788,
+      "bytesSent": 1094921645,
+      "totalBytes": 4424566433
+    },
+    {
+      "id": "snap-1789999839246-k4z2f",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:10:39.246Z",
+      "bytesReceived": 3329572377,
+      "bytesSent": 1094879052,
+      "totalBytes": 4424451429
+    },
+    {
+      "id": "snap-1789999829245-3g2r1",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:10:29.245Z",
+      "bytesReceived": 3329522710,
+      "bytesSent": 1094859057,
+      "totalBytes": 4424381767
+    },
+    {
+      "id": "snap-1789999819245-ze45h",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:10:19.245Z",
+      "bytesReceived": 3329434449,
+      "bytesSent": 1094824918,
+      "totalBytes": 4424259367
+    },
+    {
+      "id": "snap-1789999809244-2vdvy",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:10:09.244Z",
+      "bytesReceived": 3329352051,
+      "bytesSent": 1094790796,
+      "totalBytes": 4424142847
+    },
+    {
+      "id": "snap-1789999799243-pxqcs",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:09:59.243Z",
+      "bytesReceived": 3329310819,
+      "bytesSent": 1094766433,
+      "totalBytes": 4424077252
+    },
+    {
+      "id": "snap-1789999789242-2j8f8",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:09:49.242Z",
+      "bytesReceived": 3329259377,
+      "bytesSent": 1094744976,
+      "totalBytes": 4424004353
+    },
+    {
+      "id": "snap-1789999779241-a6hd3",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:09:39.241Z",
+      "bytesReceived": 3329243069,
+      "bytesSent": 1094735058,
+      "totalBytes": 4423978127
+    },
+    {
+      "id": "snap-1789999769240-2zfy7",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:09:29.240Z",
+      "bytesReceived": 3329214911,
+      "bytesSent": 1094723700,
+      "totalBytes": 4423938611
+    },
+    {
+      "id": "snap-1789999759240-0isbt",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:09:19.240Z",
+      "bytesReceived": 3329194773,
+      "bytesSent": 1094711557,
+      "totalBytes": 4423906330
+    },
+    {
+      "id": "snap-1789999749239-1kdvd",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:09:09.239Z",
+      "bytesReceived": 3329171901,
+      "bytesSent": 1094698982,
+      "totalBytes": 4423870883
+    },
+    {
+      "id": "snap-1789999739238-zemmq",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:08:59.238Z",
+      "bytesReceived": 3329150955,
+      "bytesSent": 1094686044,
+      "totalBytes": 4423836999
+    },
+    {
+      "id": "snap-1789999729237-s0wb2",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:08:49.237Z",
+      "bytesReceived": 3329101692,
+      "bytesSent": 1094659605,
+      "totalBytes": 4423761297
+    },
+    {
+      "id": "snap-1789999719237-y6lph",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:08:39.237Z",
+      "bytesReceived": 3329054481,
+      "bytesSent": 1094629673,
+      "totalBytes": 4423684154
+    },
+    {
+      "id": "snap-1789999709236-i698y",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:08:29.236Z",
+      "bytesReceived": 3329007953,
+      "bytesSent": 1094601915,
+      "totalBytes": 4423609868
+    },
+    {
+      "id": "snap-1789999699234-z6zd9",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:08:19.234Z",
+      "bytesReceived": 3328933395,
+      "bytesSent": 1094566831,
+      "totalBytes": 4423500226
+    },
+    {
+      "id": "snap-1789999689234-xm2q2",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:08:09.234Z",
+      "bytesReceived": 3328861553,
+      "bytesSent": 1094532058,
+      "totalBytes": 4423393611
+    },
+    {
+      "id": "snap-1789999679231-sk1x0",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:07:59.231Z",
+      "bytesReceived": 3328817834,
+      "bytesSent": 1094502751,
+      "totalBytes": 4423320585
+    },
+    {
+      "id": "snap-1789999669230-qaj4g",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:07:49.230Z",
+      "bytesReceived": 3328759798,
+      "bytesSent": 1094468877,
+      "totalBytes": 4423228675
+    },
+    {
+      "id": "snap-1789999659230-7a96i",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:07:39.230Z",
+      "bytesReceived": 3328680670,
+      "bytesSent": 1094427298,
+      "totalBytes": 4423107968
+    },
+    {
+      "id": "snap-1789999649230-75ans",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:07:29.230Z",
+      "bytesReceived": 3328635226,
+      "bytesSent": 1094404309,
+      "totalBytes": 4423039535
+    },
+    {
+      "id": "snap-1789999639228-fkrwb",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:07:19.228Z",
+      "bytesReceived": 3328567076,
+      "bytesSent": 1094372246,
+      "totalBytes": 4422939322
+    },
+    {
+      "id": "snap-1789999629228-9qvib",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:07:09.228Z",
+      "bytesReceived": 3328490944,
+      "bytesSent": 1094331607,
+      "totalBytes": 4422822551
+    },
+    {
+      "id": "snap-1789999619227-euc6h",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:06:59.227Z",
+      "bytesReceived": 3328471870,
+      "bytesSent": 1094316991,
+      "totalBytes": 4422788861
+    },
+    {
+      "id": "snap-1789999609227-zmgx2",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:06:49.227Z",
+      "bytesReceived": 3328425005,
+      "bytesSent": 1094291543,
+      "totalBytes": 4422716548
+    },
+    {
+      "id": "snap-1789999599226-zn937",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:06:39.226Z",
+      "bytesReceived": 3328392485,
+      "bytesSent": 1094279925,
+      "totalBytes": 4422672410
+    },
+    {
+      "id": "snap-1789999589223-769px",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:06:29.223Z",
+      "bytesReceived": 3328378345,
+      "bytesSent": 1094271112,
+      "totalBytes": 4422649457
+    },
+    {
+      "id": "snap-1789999579222-5eg91",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:06:19.222Z",
+      "bytesReceived": 3328352992,
+      "bytesSent": 1094259605,
+      "totalBytes": 4422612597
+    },
+    {
+      "id": "snap-1789999569222-674d9",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:06:09.222Z",
+      "bytesReceived": 3328324124,
+      "bytesSent": 1094248299,
+      "totalBytes": 4422572423
+    },
+    {
+      "id": "snap-1789999559221-guwgm",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:05:59.221Z",
+      "bytesReceived": 3328294240,
+      "bytesSent": 1094234118,
+      "totalBytes": 4422528358
+    },
+    {
+      "id": "snap-1789999549220-w70bd",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:05:49.220Z",
+      "bytesReceived": 3328215087,
+      "bytesSent": 1094197674,
+      "totalBytes": 4422412761
+    },
+    {
+      "id": "snap-1789999539218-nj1na",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:05:39.218Z",
+      "bytesReceived": 3328141413,
+      "bytesSent": 1094167528,
+      "totalBytes": 4422308941
+    },
+    {
+      "id": "snap-1789999529216-377i0",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:05:29.216Z",
+      "bytesReceived": 3328090877,
+      "bytesSent": 1094146526,
+      "totalBytes": 4422237403
+    },
+    {
+      "id": "snap-1789999519215-bc6et",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:05:19.215Z",
+      "bytesReceived": 3328023099,
+      "bytesSent": 1094114018,
+      "totalBytes": 4422137117
+    },
+    {
+      "id": "snap-1789999509215-7o567",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:05:09.215Z",
+      "bytesReceived": 3327966182,
+      "bytesSent": 1094075471,
+      "totalBytes": 4422041653
+    },
+    {
+      "id": "snap-1789999499213-jpqnl",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:04:59.213Z",
+      "bytesReceived": 3327924488,
+      "bytesSent": 1094051776,
+      "totalBytes": 4421976264
+    },
+    {
+      "id": "snap-1789999489213-kut3h",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:04:49.213Z",
+      "bytesReceived": 3327849464,
+      "bytesSent": 1094020502,
+      "totalBytes": 4421869966
+    },
+    {
+      "id": "snap-1789999479212-9jis6",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:04:39.212Z",
+      "bytesReceived": 3327770504,
+      "bytesSent": 1093981460,
+      "totalBytes": 4421751964
+    },
+    {
+      "id": "snap-1789999469211-wdv6a",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:04:29.211Z",
+      "bytesReceived": 3327720342,
+      "bytesSent": 1093959834,
+      "totalBytes": 4421680176
+    },
+    {
+      "id": "snap-1789999459211-ps3bq",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:04:19.210Z",
+      "bytesReceived": 3327641130,
+      "bytesSent": 1093923991,
+      "totalBytes": 4421565121
+    },
+    {
+      "id": "snap-1789999449210-a9feb",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:04:09.210Z",
+      "bytesReceived": 3327578416,
+      "bytesSent": 1093885350,
+      "totalBytes": 4421463766
+    },
+    {
+      "id": "snap-1789999439208-sijee",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:03:59.208Z",
+      "bytesReceived": 3327534624,
+      "bytesSent": 1093862180,
+      "totalBytes": 4421396804
+    },
+    {
+      "id": "snap-1789999429208-ko30k",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:03:49.208Z",
+      "bytesReceived": 3327467651,
+      "bytesSent": 1093825509,
+      "totalBytes": 4421293160
+    },
+    {
+      "id": "snap-1789999419207-ciwfs",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:03:39.207Z",
+      "bytesReceived": 3327399163,
+      "bytesSent": 1093787532,
+      "totalBytes": 4421186695
+    },
+    {
+      "id": "snap-1789999409207-0pjya",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:03:29.207Z",
+      "bytesReceived": 3327341199,
+      "bytesSent": 1093762148,
+      "totalBytes": 4421103347
+    },
+    {
+      "id": "snap-1789999399206-ojrsh",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:03:19.206Z",
+      "bytesReceived": 3327274160,
+      "bytesSent": 1093715618,
+      "totalBytes": 4420989778
+    },
+    {
+      "id": "snap-1789999389205-r7pss",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:03:09.205Z",
+      "bytesReceived": 3327217868,
+      "bytesSent": 1093682229,
+      "totalBytes": 4420900097
+    },
+    {
+      "id": "snap-1789999379205-yrk8k",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:02:59.205Z",
+      "bytesReceived": 3327175622,
+      "bytesSent": 1093660720,
+      "totalBytes": 4420836342
+    },
+    {
+      "id": "snap-1789999369204-tbug3",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:02:49.204Z",
+      "bytesReceived": 3327094661,
+      "bytesSent": 1093631525,
+      "totalBytes": 4420726186
+    },
+    {
+      "id": "snap-1789999359203-uvdw0",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:02:39.203Z",
+      "bytesReceived": 3327025833,
+      "bytesSent": 1093597460,
+      "totalBytes": 4420623293
+    },
+    {
+      "id": "snap-1789999349202-kubg7",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:02:29.202Z",
+      "bytesReceived": 3326976482,
+      "bytesSent": 1093567214,
+      "totalBytes": 4420543696
+    },
+    {
+      "id": "snap-1789999339201-4diz4",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:02:19.201Z",
+      "bytesReceived": 3326914305,
+      "bytesSent": 1093530944,
+      "totalBytes": 4420445249
+    },
+    {
+      "id": "snap-1789999329199-lce33",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:02:09.199Z",
+      "bytesReceived": 3326853091,
+      "bytesSent": 1093487198,
+      "totalBytes": 4420340289
+    },
+    {
+      "id": "snap-1789999319197-tu0cj",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:01:59.197Z",
+      "bytesReceived": 3326804291,
+      "bytesSent": 1093467530,
+      "totalBytes": 4420271821
+    },
+    {
+      "id": "snap-1789999309197-apzxs",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:01:49.197Z",
+      "bytesReceived": 3326726093,
+      "bytesSent": 1093435981,
+      "totalBytes": 4420162074
+    },
+    {
+      "id": "snap-1789999299198-qmtj3",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:01:39.198Z",
+      "bytesReceived": 3326657986,
+      "bytesSent": 1093404842,
+      "totalBytes": 4420062828
+    },
+    {
+      "id": "snap-1789999289196-c910z",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:01:29.196Z",
+      "bytesReceived": 3326601536,
+      "bytesSent": 1093381998,
+      "totalBytes": 4419983534
+    },
+    {
+      "id": "snap-1789999279196-f5bob",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:01:19.196Z",
+      "bytesReceived": 3326517759,
+      "bytesSent": 1093354173,
+      "totalBytes": 4419871932
+    },
+    {
+      "id": "snap-1789999269196-kht1t",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:01:09.196Z",
+      "bytesReceived": 3326446861,
+      "bytesSent": 1093320446,
+      "totalBytes": 4419767307
+    },
+    {
+      "id": "snap-1789999259195-77pfr",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:00:59.195Z",
+      "bytesReceived": 3326380084,
+      "bytesSent": 1093282813,
+      "totalBytes": 4419662897
+    },
+    {
+      "id": "snap-1789999238400-htmat",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:00:38.400Z",
+      "bytesReceived": 3328506556,
+      "bytesSent": 1094352279,
+      "totalBytes": 4422858835
+    },
+    {
+      "id": "snap-1789999228399-iopok",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:00:28.399Z",
+      "bytesReceived": 3328460371,
+      "bytesSent": 1094330738,
+      "totalBytes": 4422791109
+    },
+    {
+      "id": "snap-1789999218398-iddva",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:00:18.398Z",
+      "bytesReceived": 3328396580,
+      "bytesSent": 1094300401,
+      "totalBytes": 4422696981
+    },
+    {
+      "id": "snap-1789999208398-n8wmn",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T14:00:08.398Z",
+      "bytesReceived": 3328329731,
+      "bytesSent": 1094269679,
+      "totalBytes": 4422599410
+    },
+    {
+      "id": "snap-1789999198397-vc020",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:59:58.397Z",
+      "bytesReceived": 3328249274,
+      "bytesSent": 1094221208,
+      "totalBytes": 4422470482
+    },
+    {
+      "id": "snap-1789999188396-m43r8",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:59:48.396Z",
+      "bytesReceived": 3328200704,
+      "bytesSent": 1094203441,
+      "totalBytes": 4422404145
+    },
+    {
+      "id": "snap-1789999178395-z9qb9",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:59:38.395Z",
+      "bytesReceived": 3328177990,
+      "bytesSent": 1094190779,
+      "totalBytes": 4422368769
+    },
+    {
+      "id": "snap-1789999168393-cf7x0",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:59:28.393Z",
+      "bytesReceived": 3328156321,
+      "bytesSent": 1094181556,
+      "totalBytes": 4422337877
+    },
+    {
+      "id": "snap-1789999158393-wy68c",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:59:18.393Z",
+      "bytesReceived": 3328130750,
+      "bytesSent": 1094172428,
+      "totalBytes": 4422303178
+    },
+    {
+      "id": "snap-1789999148391-cwzrc",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:59:08.391Z",
+      "bytesReceived": 3328107648,
+      "bytesSent": 1094161200,
+      "totalBytes": 4422268848
+    },
+    {
+      "id": "snap-1789999138390-blcj9",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:58:58.390Z",
+      "bytesReceived": 3328083686,
+      "bytesSent": 1094145976,
+      "totalBytes": 4422229662
+    },
+    {
+      "id": "snap-1789999128388-y48j1",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:58:48.388Z",
+      "bytesReceived": 3328034903,
+      "bytesSent": 1094124552,
+      "totalBytes": 4422159455
+    },
+    {
+      "id": "snap-1789999118387-epjo1",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:58:38.387Z",
+      "bytesReceived": 3328012873,
+      "bytesSent": 1094112976,
+      "totalBytes": 4422125849
+    },
+    {
+      "id": "snap-1789999108386-3ncg0",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:58:28.386Z",
+      "bytesReceived": 3327983955,
+      "bytesSent": 1094107060,
+      "totalBytes": 4422091015
+    },
+    {
+      "id": "snap-1789999098387-fnbbh",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:58:18.387Z",
+      "bytesReceived": 3327966535,
+      "bytesSent": 1094094957,
+      "totalBytes": 4422061492
+    },
+    {
+      "id": "snap-1789999088385-54qtb",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:58:08.385Z",
+      "bytesReceived": 3327944293,
+      "bytesSent": 1094085645,
+      "totalBytes": 4422029938
+    },
+    {
+      "id": "snap-1789999078386-i9gj9",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:57:58.386Z",
+      "bytesReceived": 3327918533,
+      "bytesSent": 1094074875,
+      "totalBytes": 4421993408
+    },
+    {
+      "id": "snap-1789999068384-wgrsp",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:57:48.384Z",
+      "bytesReceived": 3327869444,
+      "bytesSent": 1094051256,
+      "totalBytes": 4421920700
+    },
+    {
+      "id": "snap-1789999058384-17o6n",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:57:38.384Z",
+      "bytesReceived": 3327846244,
+      "bytesSent": 1094043720,
+      "totalBytes": 4421889964
+    },
+    {
+      "id": "snap-1789999048383-7f8zg",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:57:28.383Z",
+      "bytesReceived": 3327824733,
+      "bytesSent": 1094031367,
+      "totalBytes": 4421856100
+    },
+    {
+      "id": "snap-1789999038382-aiyn5",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:57:18.382Z",
+      "bytesReceived": 3327797778,
+      "bytesSent": 1094016619,
+      "totalBytes": 4421814397
+    },
+    {
+      "id": "snap-1789999028380-lgjrr",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:57:08.380Z",
+      "bytesReceived": 3327776100,
+      "bytesSent": 1094005722,
+      "totalBytes": 4421781822
+    },
+    {
+      "id": "snap-1789999018380-1ypyx",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:56:58.380Z",
+      "bytesReceived": 3327746062,
+      "bytesSent": 1093995539,
+      "totalBytes": 4421741601
+    },
+    {
+      "id": "snap-1789999008378-ptqn5",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:56:48.378Z",
+      "bytesReceived": 3327697549,
+      "bytesSent": 1093972356,
+      "totalBytes": 4421669905
+    },
+    {
+      "id": "snap-1789998998377-r3f0t",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:56:38.377Z",
+      "bytesReceived": 3327671570,
+      "bytesSent": 1093958958,
+      "totalBytes": 4421630528
+    },
+    {
+      "id": "snap-1789998988377-wd8de",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:56:28.377Z",
+      "bytesReceived": 3327648736,
+      "bytesSent": 1093944981,
+      "totalBytes": 4421593717
+    },
+    {
+      "id": "snap-1789998978376-l6htr",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:56:18.376Z",
+      "bytesReceived": 3327579173,
+      "bytesSent": 1093907078,
+      "totalBytes": 4421486251
+    },
+    {
+      "id": "snap-1789998968375-socew",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:56:08.375Z",
+      "bytesReceived": 3327504077,
+      "bytesSent": 1093868117,
+      "totalBytes": 4421372194
+    },
+    {
+      "id": "snap-1789998958370-vn4j1",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:55:58.370Z",
+      "bytesReceived": 3327455834,
+      "bytesSent": 1093841556,
+      "totalBytes": 4421297390
+    },
+    {
+      "id": "snap-1789998948376-4wice",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:55:48.376Z",
+      "bytesReceived": 3327394579,
+      "bytesSent": 1093806627,
+      "totalBytes": 4421201206
+    },
+    {
+      "id": "snap-1789998938369-7ya50",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:55:38.369Z",
+      "bytesReceived": 3327309733,
+      "bytesSent": 1093769130,
+      "totalBytes": 4421078863
+    },
+    {
+      "id": "snap-1789998928368-j6efv",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:55:28.368Z",
+      "bytesReceived": 3327269272,
+      "bytesSent": 1093742241,
+      "totalBytes": 4421011513
+    },
+    {
+      "id": "snap-1789998918368-wr8ji",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:55:18.368Z",
+      "bytesReceived": 3327196754,
+      "bytesSent": 1093709848,
+      "totalBytes": 4420906602
+    },
+    {
+      "id": "snap-1789998908366-qdvs5",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:55:08.366Z",
+      "bytesReceived": 3327125482,
+      "bytesSent": 1093673046,
+      "totalBytes": 4420798528
+    },
+    {
+      "id": "snap-1789998898364-k6hst",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:54:58.364Z",
+      "bytesReceived": 3327074857,
+      "bytesSent": 1093646487,
+      "totalBytes": 4420721344
+    },
+    {
+      "id": "snap-1789998888365-1wilo",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:54:48.365Z",
+      "bytesReceived": 3327002134,
+      "bytesSent": 1093606843,
+      "totalBytes": 4420608977
+    },
+    {
+      "id": "snap-1789998878363-rxizg",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:54:38.363Z",
+      "bytesReceived": 3326924571,
+      "bytesSent": 1093571773,
+      "totalBytes": 4420496344
+    },
+    {
+      "id": "snap-1789998868362-uap5p",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:54:28.362Z",
+      "bytesReceived": 3326878567,
+      "bytesSent": 1093552062,
+      "totalBytes": 4420430629
+    },
+    {
+      "id": "snap-1789998858361-0dzt6",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:54:18.361Z",
+      "bytesReceived": 3326801826,
+      "bytesSent": 1093514161,
+      "totalBytes": 4420315987
+    },
+    {
+      "id": "snap-1789998848361-cn75u",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:54:08.360Z",
+      "bytesReceived": 3326734285,
+      "bytesSent": 1093475486,
+      "totalBytes": 4420209771
+    },
+    {
+      "id": "snap-1789998838360-llp8j",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:53:58.360Z",
+      "bytesReceived": 3326677788,
+      "bytesSent": 1093449299,
+      "totalBytes": 4420127087
+    },
+    {
+      "id": "snap-1789998828360-1e6ik",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:53:48.360Z",
+      "bytesReceived": 3326606259,
+      "bytesSent": 1093415167,
+      "totalBytes": 4420021426
+    },
+    {
+      "id": "snap-1789998818359-fnpxu",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:53:38.359Z",
+      "bytesReceived": 3326548007,
+      "bytesSent": 1093375752,
+      "totalBytes": 4419923759
+    },
+    {
+      "id": "snap-1789998808358-m3q4w",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:53:28.358Z",
+      "bytesReceived": 3326494063,
+      "bytesSent": 1093351737,
+      "totalBytes": 4419845800
+    },
+    {
+      "id": "snap-1789998798357-t3f0f",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:53:18.357Z",
+      "bytesReceived": 3326421388,
+      "bytesSent": 1093312497,
+      "totalBytes": 4419733885
+    },
+    {
+      "id": "snap-1789998788355-604l2",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:53:08.355Z",
+      "bytesReceived": 3326360205,
+      "bytesSent": 1093269837,
+      "totalBytes": 4419630042
+    },
+    {
+      "id": "snap-1789998770681-bxz83",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:52:50.681Z",
+      "bytesReceived": 3332562145,
+      "bytesSent": 1096415734,
+      "totalBytes": 4428977879
+    },
+    {
+      "id": "snap-1789998760680-1d5qs",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:52:40.680Z",
+      "bytesReceived": 3332516915,
+      "bytesSent": 1096395204,
+      "totalBytes": 4428912119
+    },
+    {
+      "id": "snap-1789998750680-9gum9",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:52:30.680Z",
+      "bytesReceived": 3332460089,
+      "bytesSent": 1096359522,
+      "totalBytes": 4428819611
+    },
+    {
+      "id": "snap-1789998740679-zrxp6",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:52:20.679Z",
+      "bytesReceived": 3332429840,
+      "bytesSent": 1096349044,
+      "totalBytes": 4428778884
+    },
+    {
+      "id": "snap-1789998730677-axnwi",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:52:10.677Z",
+      "bytesReceived": 3332405850,
+      "bytesSent": 1096336947,
+      "totalBytes": 4428742797
+    },
+    {
+      "id": "snap-1789998720676-j927c",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:52:00.676Z",
+      "bytesReceived": 3332384749,
+      "bytesSent": 1096325493,
+      "totalBytes": 4428710242
+    },
+    {
+      "id": "snap-1789998710675-imln5",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:51:50.675Z",
+      "bytesReceived": 3332334320,
+      "bytesSent": 1096297160,
+      "totalBytes": 4428631480
+    },
+    {
+      "id": "snap-1789998700674-r7r5f",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:51:40.674Z",
+      "bytesReceived": 3332311889,
+      "bytesSent": 1096286070,
+      "totalBytes": 4428597959
+    },
+    {
+      "id": "snap-1789998690675-waqns",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:51:30.675Z",
+      "bytesReceived": 3332289940,
+      "bytesSent": 1096271547,
+      "totalBytes": 4428561487
+    },
+    {
+      "id": "snap-1789998680672-90apn",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:51:20.672Z",
+      "bytesReceived": 3332267459,
+      "bytesSent": 1096257020,
+      "totalBytes": 4428524479
+    },
+    {
+      "id": "snap-1789998670672-4eusy",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:51:10.672Z",
+      "bytesReceived": 3332224405,
+      "bytesSent": 1096229074,
+      "totalBytes": 4428453479
+    },
+    {
+      "id": "snap-1789998660670-tc22f",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:51:00.670Z",
+      "bytesReceived": 3332165392,
+      "bytesSent": 1096207813,
+      "totalBytes": 4428373205
+    },
+    {
+      "id": "snap-1789998650670-c2nz7",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:50:50.670Z",
+      "bytesReceived": 3332096361,
+      "bytesSent": 1096166885,
+      "totalBytes": 4428263246
+    },
+    {
+      "id": "snap-1789998640670-v0sk3",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:50:40.670Z",
+      "bytesReceived": 3332056843,
+      "bytesSent": 1096147594,
+      "totalBytes": 4428204437
+    },
+    {
+      "id": "snap-1789998630670-wl5gh",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:50:30.670Z",
+      "bytesReceived": 3331983372,
+      "bytesSent": 1096110190,
+      "totalBytes": 4428093562
+    },
+    {
+      "id": "snap-1789998620669-f4m0q",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:50:20.669Z",
+      "bytesReceived": 3331918302,
+      "bytesSent": 1096072629,
+      "totalBytes": 4427990931
+    },
+    {
+      "id": "snap-1789998610667-tltgm",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:50:10.667Z",
+      "bytesReceived": 3331866979,
+      "bytesSent": 1096051110,
+      "totalBytes": 4427918089
+    },
+    {
+      "id": "snap-1789998600667-esx8i",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:50:00.667Z",
+      "bytesReceived": 3331802390,
+      "bytesSent": 1096014092,
+      "totalBytes": 4427816482
+    },
+    {
+      "id": "snap-1789998590665-k89yj",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:49:50.665Z",
+      "bytesReceived": 3331741870,
+      "bytesSent": 1095976368,
+      "totalBytes": 4427718238
+    },
+    {
+      "id": "snap-1789998580664-o1ri4",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:49:40.664Z",
+      "bytesReceived": 3331700132,
+      "bytesSent": 1095954306,
+      "totalBytes": 4427654438
+    },
+    {
+      "id": "snap-1789998570664-gfjjk",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:49:30.664Z",
+      "bytesReceived": 3331625300,
+      "bytesSent": 1095916303,
+      "totalBytes": 4427541603
+    },
+    {
+      "id": "snap-1789998560663-z1o5h",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:49:20.663Z",
+      "bytesReceived": 3331556387,
+      "bytesSent": 1095881875,
+      "totalBytes": 4427438262
+    },
+    {
+      "id": "snap-1789998550661-6sqf9",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:49:10.661Z",
+      "bytesReceived": 3331503836,
+      "bytesSent": 1095861685,
+      "totalBytes": 4427365521
+    },
+    {
+      "id": "snap-1789998540660-ifyx9",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:49:00.660Z",
+      "bytesReceived": 3331448726,
+      "bytesSent": 1095828419,
+      "totalBytes": 4427277145
+    },
+    {
+      "id": "snap-1789998530659-171e7",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:48:50.659Z",
+      "bytesReceived": 3331375188,
+      "bytesSent": 1095792612,
+      "totalBytes": 4427167800
+    },
+    {
+      "id": "snap-1789998520658-zljk4",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:48:40.658Z",
+      "bytesReceived": 3331325051,
+      "bytesSent": 1095773415,
+      "totalBytes": 4427098466
+    },
+    {
+      "id": "snap-1789998510657-wyn77",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:48:30.657Z",
+      "bytesReceived": 3331242141,
+      "bytesSent": 1095736829,
+      "totalBytes": 4426978970
+    },
+    {
+      "id": "snap-1789998500656-k5ste",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:48:20.656Z",
+      "bytesReceived": 3331170914,
+      "bytesSent": 1095699339,
+      "totalBytes": 4426870253
+    },
+    {
+      "id": "snap-1789998490655-v24zn",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:48:10.655Z",
+      "bytesReceived": 3331132212,
+      "bytesSent": 1095678639,
+      "totalBytes": 4426810851
+    },
+    {
+      "id": "snap-1789998480654-vj024",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:48:00.654Z",
+      "bytesReceived": 3331061757,
+      "bytesSent": 1095645715,
+      "totalBytes": 4426707472
+    },
+    {
+      "id": "snap-1789998470653-2vjvn",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:47:50.653Z",
+      "bytesReceived": 3330985042,
+      "bytesSent": 1095607312,
+      "totalBytes": 4426592354
+    },
+    {
+      "id": "snap-1789998460652-lu2ou",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:47:40.652Z",
+      "bytesReceived": 3330942837,
+      "bytesSent": 1095587496,
+      "totalBytes": 4426530333
+    },
+    {
+      "id": "snap-1789998450652-ims70",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:47:30.652Z",
+      "bytesReceived": 3330864111,
+      "bytesSent": 1095552403,
+      "totalBytes": 4426416514
+    },
+    {
+      "id": "snap-1789998440651-qvzm6",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:47:20.651Z",
+      "bytesReceived": 3330789557,
+      "bytesSent": 1095515155,
+      "totalBytes": 4426304712
+    },
+    {
+      "id": "snap-1789998430650-vp0er",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:47:10.650Z",
+      "bytesReceived": 3330751903,
+      "bytesSent": 1095493992,
+      "totalBytes": 4426245895
+    },
+    {
+      "id": "snap-1789998420649-xu6eb",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:47:00.649Z",
+      "bytesReceived": 3330680375,
+      "bytesSent": 1095456570,
+      "totalBytes": 4426136945
+    },
+    {
+      "id": "snap-1789998410649-rcj12",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:46:50.649Z",
+      "bytesReceived": 3330609055,
+      "bytesSent": 1095421393,
+      "totalBytes": 4426030448
+    },
+    {
+      "id": "snap-1789998400652-p0eb7",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:46:40.652Z",
+      "bytesReceived": 3330569205,
+      "bytesSent": 1095402052,
+      "totalBytes": 4425971257
+    },
+    {
+      "id": "snap-1789998390648-1g9y9",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:46:30.648Z",
+      "bytesReceived": 3330512388,
+      "bytesSent": 1095364068,
+      "totalBytes": 4425876456
+    },
+    {
+      "id": "snap-1789998380648-2wfuq",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:46:20.648Z",
+      "bytesReceived": 3330437470,
+      "bytesSent": 1095330718,
+      "totalBytes": 4425768188
+    },
+    {
+      "id": "snap-1789998370647-r0gu8",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:46:10.647Z",
+      "bytesReceived": 3330393613,
+      "bytesSent": 1095305346,
+      "totalBytes": 4425698959
+    },
+    {
+      "id": "snap-1789998360647-xysgb",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:46:00.647Z",
+      "bytesReceived": 3330323677,
+      "bytesSent": 1095267282,
+      "totalBytes": 4425590959
+    },
+    {
+      "id": "snap-1789998350645-r6kuy",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:45:50.645Z",
+      "bytesReceived": 3330258048,
+      "bytesSent": 1095235078,
+      "totalBytes": 4425493126
+    },
+    {
+      "id": "snap-1789998340642-7baxa",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:45:40.642Z",
+      "bytesReceived": 3330208692,
+      "bytesSent": 1095217747,
+      "totalBytes": 4425426439
+    },
+    {
+      "id": "snap-1789998330641-o1ge1",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:45:30.641Z",
+      "bytesReceived": 3330136685,
+      "bytesSent": 1095182124,
+      "totalBytes": 4425318809
+    },
+    {
+      "id": "snap-1789998320641-qhkw8",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:45:20.641Z",
+      "bytesReceived": 3330073779,
+      "bytesSent": 1095145961,
+      "totalBytes": 4425219740
+    },
+    {
+      "id": "snap-1789998310639-q1cev",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:45:10.639Z",
+      "bytesReceived": 3330018478,
+      "bytesSent": 1095123239,
+      "totalBytes": 4425141717
+    },
+    {
+      "id": "snap-1789998300638-kt1k6",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:45:00.638Z",
+      "bytesReceived": 3329947227,
+      "bytesSent": 1095090275,
+      "totalBytes": 4425037502
+    },
+    {
+      "id": "snap-1789998290638-vatav",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:44:50.638Z",
+      "bytesReceived": 3329881262,
+      "bytesSent": 1095051809,
+      "totalBytes": 4424933071
+    },
+    {
+      "id": "snap-1789998280636-cduyh",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:44:40.636Z",
+      "bytesReceived": 3329843052,
+      "bytesSent": 1095031929,
+      "totalBytes": 4424874981
+    },
+    {
+      "id": "snap-1789998270636-9z1tf",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:44:30.636Z",
+      "bytesReceived": 3329772527,
+      "bytesSent": 1094991667,
+      "totalBytes": 4424764194
+    },
+    {
+      "id": "snap-1789998260636-p79n6",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:44:20.636Z",
+      "bytesReceived": 3329708287,
+      "bytesSent": 1094950361,
+      "totalBytes": 4424658648
+    },
+    {
+      "id": "snap-1789998250635-77nux",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:44:10.635Z",
+      "bytesReceived": 3329659392,
+      "bytesSent": 1094926578,
+      "totalBytes": 4424585970
+    },
+    {
+      "id": "snap-1789998240633-jyrr8",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:44:00.633Z",
+      "bytesReceived": 3329597287,
+      "bytesSent": 1094887809,
+      "totalBytes": 4424485096
+    },
+    {
+      "id": "snap-1789998230633-6t7bz",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:43:50.633Z",
+      "bytesReceived": 3329524392,
+      "bytesSent": 1094843855,
+      "totalBytes": 4424368247
+    },
+    {
+      "id": "snap-1789998220633-ezqcv",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:43:40.633Z",
+      "bytesReceived": 3329506082,
+      "bytesSent": 1094831326,
+      "totalBytes": 4424337408
+    },
+    {
+      "id": "snap-1789998210632-kuij7",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:43:30.632Z",
+      "bytesReceived": 3329485871,
+      "bytesSent": 1094816128,
+      "totalBytes": 4424301999
+    },
+    {
+      "id": "snap-1789998200632-u5i3h",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:43:20.632Z",
+      "bytesReceived": 3329463777,
+      "bytesSent": 1094804922,
+      "totalBytes": 4424268699
+    },
+    {
+      "id": "snap-1789998190631-1xb5f",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:43:10.631Z",
+      "bytesReceived": 3329439058,
+      "bytesSent": 1094793682,
+      "totalBytes": 4424232740
+    },
+    {
+      "id": "snap-1789998180631-cnx2p",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:43:00.631Z",
+      "bytesReceived": 3329418978,
+      "bytesSent": 1094783224,
+      "totalBytes": 4424202202
+    },
+    {
+      "id": "snap-1789998170630-7zpnj",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:42:50.630Z",
+      "bytesReceived": 3329347240,
+      "bytesSent": 1094750991,
+      "totalBytes": 4424098231
+    },
+    {
+      "id": "snap-1789998160629-0wmag",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:42:40.629Z",
+      "bytesReceived": 3329300713,
+      "bytesSent": 1094730158,
+      "totalBytes": 4424030871
+    },
+    {
+      "id": "snap-1789998150628-tq3yi",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:42:30.628Z",
+      "bytesReceived": 3329219341,
+      "bytesSent": 1094692831,
+      "totalBytes": 4423912172
+    },
+    {
+      "id": "snap-1789998140628-6x9ia",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:42:20.628Z",
+      "bytesReceived": 3329144241,
+      "bytesSent": 1094656186,
+      "totalBytes": 4423800427
+    },
+    {
+      "id": "snap-1789998130627-h9owv",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:42:10.627Z",
+      "bytesReceived": 3329088051,
+      "bytesSent": 1094633836,
+      "totalBytes": 4423721887
+    },
+    {
+      "id": "snap-1789998120626-oaz5n",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:42:00.626Z",
+      "bytesReceived": 3329021869,
+      "bytesSent": 1094607990,
+      "totalBytes": 4423629859
+    },
+    {
+      "id": "snap-1789998110626-w646b",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:41:50.626Z",
+      "bytesReceived": 3328935282,
+      "bytesSent": 1094572814,
+      "totalBytes": 4423508096
+    },
+    {
+      "id": "snap-1789998100623-mjlx8",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:41:40.623Z",
+      "bytesReceived": 3328887796,
+      "bytesSent": 1094547844,
+      "totalBytes": 4423435640
+    },
+    {
+      "id": "snap-1789998090622-z09zo",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:41:30.622Z",
+      "bytesReceived": 3328826340,
+      "bytesSent": 1094516025,
+      "totalBytes": 4423342365
+    },
+    {
+      "id": "snap-1789998080622-jk6f3",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:41:20.621Z",
+      "bytesReceived": 3328739891,
+      "bytesSent": 1094481952,
+      "totalBytes": 4423221843
+    },
+    {
+      "id": "snap-1789998070621-i4dlm",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:41:10.621Z",
+      "bytesReceived": 3328696788,
+      "bytesSent": 1094462037,
+      "totalBytes": 4423158825
+    },
+    {
+      "id": "snap-1789998060621-lm7au",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:41:00.621Z",
+      "bytesReceived": 3328609449,
+      "bytesSent": 1094424529,
+      "totalBytes": 4423033978
+    },
+    {
+      "id": "snap-1789998050620-7tnlh",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:40:50.620Z",
+      "bytesReceived": 3328532296,
+      "bytesSent": 1094389632,
+      "totalBytes": 4422921928
+    },
+    {
+      "id": "snap-1789998040618-v7u0u",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:40:40.618Z",
+      "bytesReceived": 3328491884,
+      "bytesSent": 1094369061,
+      "totalBytes": 4422860945
+    },
+    {
+      "id": "snap-1789998030618-no6ag",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:40:30.618Z",
+      "bytesReceived": 3328422383,
+      "bytesSent": 1094331639,
+      "totalBytes": 4422754022
+    },
+    {
+      "id": "snap-1789998020616-752hf",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:40:20.616Z",
+      "bytesReceived": 3328339756,
+      "bytesSent": 1094294942,
+      "totalBytes": 4422634698
+    },
+    {
+      "id": "snap-1789998010617-3ih4w",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:40:10.617Z",
+      "bytesReceived": 3328290477,
+      "bytesSent": 1094272209,
+      "totalBytes": 4422562686
+    },
+    {
+      "id": "snap-1789998000615-nb4gp",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:40:00.615Z",
+      "bytesReceived": 3328220247,
+      "bytesSent": 1094236722,
+      "totalBytes": 4422456969
+    },
+    {
+      "id": "snap-1789997990613-1kz0f",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:39:50.613Z",
+      "bytesReceived": 3328147158,
+      "bytesSent": 1094196331,
+      "totalBytes": 4422343489
+    },
+    {
+      "id": "snap-1789997980612-e5rn9",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:39:40.612Z",
+      "bytesReceived": 3328096533,
+      "bytesSent": 1094168953,
+      "totalBytes": 4422265486
+    },
+    {
+      "id": "snap-1789997970612-ffuj7",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:39:30.612Z",
+      "bytesReceived": 3328025729,
+      "bytesSent": 1094130786,
+      "totalBytes": 4422156515
+    },
+    {
+      "id": "snap-1789997960610-8806t",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:39:20.610Z",
+      "bytesReceived": 3327960794,
+      "bytesSent": 1094086281,
+      "totalBytes": 4422047075
+    },
+    {
+      "id": "snap-1789997950609-9qptr",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:39:10.609Z",
+      "bytesReceived": 3327934202,
+      "bytesSent": 1094075171,
+      "totalBytes": 4422009373
+    },
+    {
+      "id": "snap-1789997940609-0mj1d",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:39:00.609Z",
+      "bytesReceived": 3327917316,
+      "bytesSent": 1094063454,
+      "totalBytes": 4421980770
+    },
+    {
+      "id": "snap-1789997930607-5lri3",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:38:50.607Z",
+      "bytesReceived": 3327860088,
+      "bytesSent": 1094040408,
+      "totalBytes": 4421900496
+    },
+    {
+      "id": "snap-1789997920606-4znhq",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:38:40.606Z",
+      "bytesReceived": 3327838183,
+      "bytesSent": 1094026357,
+      "totalBytes": 4421864540
+    },
+    {
+      "id": "snap-1789997910607-eyl65",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:38:30.607Z",
+      "bytesReceived": 3327819603,
+      "bytesSent": 1094011620,
+      "totalBytes": 4421831223
+    },
+    {
+      "id": "snap-1789997900607-mivoc",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:38:20.607Z",
+      "bytesReceived": 3327796202,
+      "bytesSent": 1093999911,
+      "totalBytes": 4421796113
+    },
+    {
+      "id": "snap-1789997890605-ur3j1",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:38:10.605Z",
+      "bytesReceived": 3327766590,
+      "bytesSent": 1093989895,
+      "totalBytes": 4421756485
+    },
+    {
+      "id": "snap-1789997880605-3ug4g",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:38:00.605Z",
+      "bytesReceived": 3327742075,
+      "bytesSent": 1093978785,
+      "totalBytes": 4421720860
+    },
+    {
+      "id": "snap-1789997870608-zogei",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:37:50.608Z",
+      "bytesReceived": 3327687685,
+      "bytesSent": 1093952076,
+      "totalBytes": 4421639761
+    },
+    {
+      "id": "snap-1789997860604-bbj7z",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:37:40.604Z",
+      "bytesReceived": 3327678459,
+      "bytesSent": 1093937315,
+      "totalBytes": 4421615774
+    },
+    {
+      "id": "snap-1789997850603-rn53l",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:37:30.603Z",
+      "bytesReceived": 3327660361,
+      "bytesSent": 1093929299,
+      "totalBytes": 4421589660
+    },
+    {
+      "id": "snap-1789997840602-cvdtc",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:37:20.602Z",
+      "bytesReceived": 3327638447,
+      "bytesSent": 1093914738,
+      "totalBytes": 4421553185
+    },
+    {
+      "id": "snap-1789997830601-1vmgc",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:37:10.601Z",
+      "bytesReceived": 3327614547,
+      "bytesSent": 1093903349,
+      "totalBytes": 4421517896
+    },
+    {
+      "id": "snap-1789997820600-cnnus",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:37:00.600Z",
+      "bytesReceived": 3327596365,
+      "bytesSent": 1093889505,
+      "totalBytes": 4421485870
+    },
+    {
+      "id": "snap-1789997810601-tblyp",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:36:50.601Z",
+      "bytesReceived": 3327549636,
+      "bytesSent": 1093856270,
+      "totalBytes": 4421405906
+    },
+    {
+      "id": "snap-1789997800600-67om0",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:36:40.600Z",
+      "bytesReceived": 3327523821,
+      "bytesSent": 1093839633,
+      "totalBytes": 4421363454
+    },
+    {
+      "id": "snap-1789997790600-qtl7a",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:36:30.600Z",
+      "bytesReceived": 3327504067,
+      "bytesSent": 1093829985,
+      "totalBytes": 4421334052
+    },
+    {
+      "id": "snap-1789997780599-4a2ah",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:36:20.599Z",
+      "bytesReceived": 3327490125,
+      "bytesSent": 1093815198,
+      "totalBytes": 4421305323
+    },
+    {
+      "id": "snap-1789997770597-3dvmt",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:36:10.597Z",
+      "bytesReceived": 3327472801,
+      "bytesSent": 1093805230,
+      "totalBytes": 4421278031
+    },
+    {
+      "id": "snap-1789997760597-864mu",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:36:00.597Z",
+      "bytesReceived": 3327447084,
+      "bytesSent": 1093795567,
+      "totalBytes": 4421242651
+    },
+    {
+      "id": "snap-1789997750596-a8px9",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:35:50.596Z",
+      "bytesReceived": 3327396865,
+      "bytesSent": 1093778648,
+      "totalBytes": 4421175513
+    },
+    {
+      "id": "snap-1789997740595-rqndb",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:35:40.595Z",
+      "bytesReceived": 3327374886,
+      "bytesSent": 1093765512,
+      "totalBytes": 4421140398
+    },
+    {
+      "id": "snap-1789997730594-sk714",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:35:30.594Z",
+      "bytesReceived": 3327354866,
+      "bytesSent": 1093751211,
+      "totalBytes": 4421106077
+    },
+    {
+      "id": "snap-1789997720592-9ub0f",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:35:20.592Z",
+      "bytesReceived": 3327328986,
+      "bytesSent": 1093735648,
+      "totalBytes": 4421064634
+    },
+    {
+      "id": "snap-1789997710592-aclxx",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:35:10.592Z",
+      "bytesReceived": 3327301321,
+      "bytesSent": 1093724795,
+      "totalBytes": 4421026116
+    },
+    {
+      "id": "snap-1789997700591-73hzn",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:35:00.591Z",
+      "bytesReceived": 3327275384,
+      "bytesSent": 1093714167,
+      "totalBytes": 4420989551
+    },
+    {
+      "id": "snap-1789997690589-c026h",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:34:50.589Z",
+      "bytesReceived": 3327219976,
+      "bytesSent": 1093692012,
+      "totalBytes": 4420911988
+    },
+    {
+      "id": "snap-1789997680588-n527x",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:34:40.588Z",
+      "bytesReceived": 3327200248,
+      "bytesSent": 1093680051,
+      "totalBytes": 4420880299
+    },
+    {
+      "id": "snap-1789997670587-f8ub2",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:34:30.587Z",
+      "bytesReceived": 3327171288,
+      "bytesSent": 1093668607,
+      "totalBytes": 4420839895
+    },
+    {
+      "id": "snap-1789997660586-99i0y",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:34:20.586Z",
+      "bytesReceived": 3327154221,
+      "bytesSent": 1093660114,
+      "totalBytes": 4420814335
+    },
+    {
+      "id": "snap-1789997650586-tv32s",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:34:10.586Z",
+      "bytesReceived": 3327131548,
+      "bytesSent": 1093648799,
+      "totalBytes": 4420780347
+    },
+    {
+      "id": "snap-1789997640585-d1lw0",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:34:00.585Z",
+      "bytesReceived": 3327110439,
+      "bytesSent": 1093634910,
+      "totalBytes": 4420745349
+    },
+    {
+      "id": "snap-1789997630583-953jx",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:33:50.583Z",
+      "bytesReceived": 3327063897,
+      "bytesSent": 1093615108,
+      "totalBytes": 4420679005
+    },
+    {
+      "id": "snap-1789997620582-het63",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:33:40.582Z",
+      "bytesReceived": 3327040942,
+      "bytesSent": 1093602819,
+      "totalBytes": 4420643761
+    },
+    {
+      "id": "snap-1789997610582-g2oih",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:33:30.582Z",
+      "bytesReceived": 3327008940,
+      "bytesSent": 1093592131,
+      "totalBytes": 4420601071
+    },
+    {
+      "id": "snap-1789997600580-z2mk6",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:33:20.580Z",
+      "bytesReceived": 3326983120,
+      "bytesSent": 1093580635,
+      "totalBytes": 4420563755
+    },
+    {
+      "id": "snap-1789997590579-isiyj",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:33:10.579Z",
+      "bytesReceived": 3326965783,
+      "bytesSent": 1093566265,
+      "totalBytes": 4420532048
+    },
+    {
+      "id": "snap-1789997580577-par0l",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:33:00.577Z",
+      "bytesReceived": 3326940509,
+      "bytesSent": 1093555528,
+      "totalBytes": 4420496037
+    },
+    {
+      "id": "snap-1789997570577-t5psu",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:32:50.577Z",
+      "bytesReceived": 3326891909,
+      "bytesSent": 1093530592,
+      "totalBytes": 4420422501
+    },
+    {
+      "id": "snap-1789997560576-fap57",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:32:40.576Z",
+      "bytesReceived": 3326863595,
+      "bytesSent": 1093520104,
+      "totalBytes": 4420383699
+    },
+    {
+      "id": "snap-1789997550575-hcku6",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:32:30.575Z",
+      "bytesReceived": 3326845587,
+      "bytesSent": 1093507692,
+      "totalBytes": 4420353279
+    },
+    {
+      "id": "snap-1789997540573-lentd",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:32:20.573Z",
+      "bytesReceived": 3326828998,
+      "bytesSent": 1093498992,
+      "totalBytes": 4420327990
+    },
+    {
+      "id": "snap-1789997530572-qmltl",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:32:10.572Z",
+      "bytesReceived": 3326809542,
+      "bytesSent": 1093487100,
+      "totalBytes": 4420296642
+    },
+    {
+      "id": "snap-1789997520571-eyvha",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:32:00.571Z",
+      "bytesReceived": 3326785380,
+      "bytesSent": 1093473940,
+      "totalBytes": 4420259320
+    },
+    {
+      "id": "snap-1789997510573-u5dek",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:31:50.572Z",
+      "bytesReceived": 3326730030,
+      "bytesSent": 1093451465,
+      "totalBytes": 4420181495
+    },
+    {
+      "id": "snap-1789997500569-wudju",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:31:40.569Z",
+      "bytesReceived": 3326677591,
+      "bytesSent": 1093427029,
+      "totalBytes": 4420104620
+    },
+    {
+      "id": "snap-1789997490569-rid5u",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:31:30.569Z",
+      "bytesReceived": 3326606293,
+      "bytesSent": 1093385511,
+      "totalBytes": 4419991804
+    },
+    {
+      "id": "snap-1789997480569-4oktm",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:31:20.569Z",
+      "bytesReceived": 3326526654,
+      "bytesSent": 1093350617,
+      "totalBytes": 4419877271
+    },
+    {
+      "id": "snap-1789997470569-8hfja",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:31:10.569Z",
+      "bytesReceived": 3326454964,
+      "bytesSent": 1093318850,
+      "totalBytes": 4419773814
+    },
+    {
+      "id": "snap-1789997460569-sxd79",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:31:00.569Z",
+      "bytesReceived": 3326425446,
+      "bytesSent": 1093308823,
+      "totalBytes": 4419734269
+    },
+    {
+      "id": "snap-1789997450568-6g48b",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:30:50.568Z",
+      "bytesReceived": 3326412097,
+      "bytesSent": 1093297848,
+      "totalBytes": 4419709945
+    },
+    {
+      "id": "snap-1789997440568-6n0vb",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:30:40.568Z",
+      "bytesReceived": 3326387716,
+      "bytesSent": 1093283923,
+      "totalBytes": 4419671639
+    },
+    {
+      "id": "snap-1789997430566-e59vu",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:30:30.566Z",
+      "bytesReceived": 3326365016,
+      "bytesSent": 1093267905,
+      "totalBytes": 4419632921
+    },
+    {
+      "id": "snap-1789997420567-8ujpp",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:30:20.567Z",
+      "bytesReceived": 3326333818,
+      "bytesSent": 1093257972,
+      "totalBytes": 4419591790
+    },
+    {
+      "id": "snap-1789997399396-mwpvd",
+      "profileId": "system-aggregate",
+      "profileName": "Campus Aggregate",
+      "timestamp": "2026-09-21T13:29:59.396Z",
+      "bytesReceived": 3326345657,
+      "bytesSent": 1093257266,
+      "totalBytes": 4419602923
+    },
+    {
+      "id": "snap-0",
+      "profileId": "prof-fp-001",
+      "profileName": "Bassey Emmanuel Okon",
+      "timestamp": "2026-09-20T13:29:49.382Z",
+      "bytesReceived": 180000000,
+      "bytesSent": 45000000,
+      "totalBytes": 225000000
+    },
+    {
+      "id": "snap-1",
+      "profileId": "prof-fp-001",
+      "profileName": "Bassey Emmanuel Okon",
+      "timestamp": "2026-09-20T17:29:49.382Z",
+      "bytesReceived": 330000000,
+      "bytesSent": 87000000,
+      "totalBytes": 417000000
+    },
+    {
+      "id": "snap-2",
+      "profileId": "prof-fp-001",
+      "profileName": "Bassey Emmanuel Okon",
+      "timestamp": "2026-09-20T21:29:49.382Z",
+      "bytesReceived": 480000000,
+      "bytesSent": 129000000,
+      "totalBytes": 609000000
+    },
+    {
+      "id": "snap-3",
+      "profileId": "prof-fp-001",
+      "profileName": "Bassey Emmanuel Okon",
+      "timestamp": "2026-09-21T01:29:49.382Z",
+      "bytesReceived": 630000000,
+      "bytesSent": 171000000,
+      "totalBytes": 801000000
+    },
+    {
+      "id": "snap-4",
+      "profileId": "prof-fp-001",
+      "profileName": "Bassey Emmanuel Okon",
+      "timestamp": "2026-09-21T05:29:49.382Z",
+      "bytesReceived": 780000000,
+      "bytesSent": 213000000,
+      "totalBytes": 993000000
+    },
+    {
+      "id": "snap-5",
+      "profileId": "prof-fp-001",
+      "profileName": "Bassey Emmanuel Okon",
+      "timestamp": "2026-09-21T09:29:49.382Z",
+      "bytesReceived": 930000000,
+      "bytesSent": 255000000,
+      "totalBytes": 1185000000
+    },
+    {
+      "id": "snap-6",
+      "profileId": "prof-fp-001",
+      "profileName": "Bassey Emmanuel Okon",
+      "timestamp": "2026-09-21T12:29:49.382Z",
+      "bytesReceived": 1080000000,
+      "bytesSent": 297000000,
+      "totalBytes": 1377000000
+    },
+    {
+      "id": "snap-7",
+      "profileId": "prof-fp-001",
+      "profileName": "Bassey Emmanuel Okon",
+      "timestamp": "2026-09-21T13:29:49.382Z",
+      "bytesReceived": 1230000000,
+      "bytesSent": 339000000,
+      "totalBytes": 1569000000
+    }
+  ],
+  "settings": {
+    "interfaceName": "wg0",
+    "serverAddress": "10.8.0.1/24",
+    "listeningPort": 51820,
+    "serverEndpoint": "vpn.foundationpoly.edu.ng:51820",
+    "dns": "10.8.0.1, 1.1.1.1"
+  },
+  "admins": [
+    {
+      "id": "admin-fp-001",
+      "name": "System Administrator",
+      "email": "admin@foundationpoly.edu.ng",
+      "passwordHash": "$2b$10$zuNHBNWx/f.G/ieZcIX35eJqaXBDMFud7o5bhbDSf12NnS2Ebu4zm",
+      "role": "ADMIN",
+      "createdAt": "2026-09-21T14:14:34.550Z",
+      "updatedAt": "2026-09-21T14:14:34.550Z"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "aca8d93f424e772b1f680aff931ddb9e421f298cb098bf078a309807b8a049c4",
+      "adminId": "admin-fp-001",
+      "email": "admin@foundationpoly.edu.ng",
+      "name": "System Administrator",
+      "role": "ADMIN",
+      "createdAt": "2026-09-21T14:18:26.790Z",
+      "expiresAt": "2026-09-21T22:18:26.790Z",
+      "ipAddress": "2605:59c1:19ac:4010:3115:a72b:e8da:c762",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+    }
+  ]
+}
