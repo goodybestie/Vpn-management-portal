@@ -50,6 +50,15 @@ async function startServer() {
     console.error('[Server] Warning during initial SQLite sync:', err);
   });
 
+  // Initial WireGuard State Reconciliation
+  try {
+    const wgService = await wireGuardFactory.resolveService();
+    await clientSyncService.reconcileWireGuardState(wgService);
+    console.log('[Server] Initial WireGuard state reconciliation completed successfully.');
+  } catch (err) {
+    console.error('[Server] Warning during initial WireGuard state reconciliation:', err);
+  }
+
   // Background sync loop: sync live WireGuard peer statistics into database, detect connection transitions & record traffic snapshots
   if ((globalThis as any).__wg_polling_interval) {
     clearInterval((globalThis as any).__wg_polling_interval);
@@ -854,6 +863,50 @@ async function startServer() {
     }).catch(() => {});
 
     res.json({ success: true, profile: updated, message: 'Profile access revoked and peer removed from WireGuard.' });
+  });
+
+  // Activate profile
+  app.post('/api/profiles/:id/activate', async (req, res) => {
+    const profile = dbService.getProfileById(req.params.id);
+    if (!profile) {
+      return res.status(404).json({ error: 'VPN Profile not found' });
+    }
+
+    if (profile.status !== 'revoked' && profile.status !== 'inactive') {
+      return res.status(400).json({ error: 'VPN Profile is already active.' });
+    }
+
+    const updated = dbService.updateProfile(profile.id, {
+      status: 'active',
+    });
+
+    const adminSession = (req as any).adminSession;
+    const actorEmail = adminSession?.email || 'admin@foundationpoly.edu.ng';
+
+    createAuditLog({
+      action: 'VPN_PROFILE_ACTIVATED',
+      description: `Activated VPN access privileges for ${profile.fullName} (${profile.studentId})`,
+      actor: actorEmail,
+      targetType: 'VPN_PROFILE',
+      targetId: profile.id,
+      metadata: {
+        profileId: profile.id,
+        studentId: profile.studentId,
+        vpnIp: profile.vpnIp,
+        publicKey: profile.publicKey,
+        name: profile.fullName,
+      },
+    }).catch(() => {});
+
+    // Trigger reconciliation to quickly restore the peer without waiting 15s
+    try {
+      const wgService = await wireGuardFactory.resolveService();
+      await clientSyncService.reconcileWireGuardState(wgService);
+    } catch (err) {
+      console.error('[API /api/profiles/:id/activate] Failed to eagerly reconcile:', err);
+    }
+
+    res.json({ success: true, profile: updated, message: 'Profile activated. WireGuard reconciliation will restore the peer shortly.' });
   });
 
   // Delete profile

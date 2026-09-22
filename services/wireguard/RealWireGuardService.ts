@@ -161,8 +161,8 @@ export class RealWireGuardService implements IWireGuardService {
     }
 
     if (stderr && stderr.trim().length > 0) {
-      // If stderr contains error messages from wg.exe, treat as a failure
-      throw new Error(`WireGuard CLI Error: ${stderr.trim()}`);
+      // Log stderr for diagnostics without failing the command
+      console.warn(`[WireGuard CLI Warning]:`, stderr.trim());
     }
 
     return stdout;
@@ -635,5 +635,52 @@ export class RealWireGuardService implements IWireGuardService {
     }
     await new Promise((r) => setTimeout(r, 1000));
     return this.startServer();
+  }
+
+  async syncPeers(expectedPeers: { publicKey: string; allowedIPs: string[]; endpoint?: string; status: string }[]): Promise<{ added: number; removed: number; failed: number }> {
+    const { peers: livePeers, isRunning } = await this.fetchRuntimeState();
+    if (!isRunning) {
+      return { added: 0, removed: 0, failed: 0 };
+    }
+
+    const livePeerKeys = new Set(livePeers.map((p) => p.publicKey));
+    const activeExpectedPeers = expectedPeers.filter((p) => p.status === 'active');
+    const inactiveExpectedPeers = expectedPeers.filter((p) => p.status === 'revoked' || p.status === 'inactive');
+
+    let added = 0;
+    let removed = 0;
+    let failed = 0;
+
+    // Add missing active peers
+    for (const expected of activeExpectedPeers) {
+      if (!livePeerKeys.has(expected.publicKey)) {
+        try {
+          await this.addPeer({
+            publicKey: expected.publicKey,
+            allowedIPs: expected.allowedIPs,
+            endpoint: expected.endpoint,
+          });
+          added++;
+        } catch (error) {
+          console.warn(`[syncPeers] Failed to add peer ${expected.publicKey}:`, error);
+          failed++;
+        }
+      }
+    }
+
+    // Remove revoked/inactive peers that are currently live
+    for (const expected of inactiveExpectedPeers) {
+      if (livePeerKeys.has(expected.publicKey)) {
+        try {
+          await this.removePeer(expected.publicKey);
+          removed++;
+        } catch (error) {
+          console.warn(`[syncPeers] Failed to remove peer ${expected.publicKey}:`, error);
+          failed++;
+        }
+      }
+    }
+
+    return { added, removed, failed };
   }
 }

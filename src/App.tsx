@@ -29,6 +29,7 @@ import {
   createProfile,
   updateProfile,
   revokeProfile,
+  activateProfile,
   deleteProfile,
   startVpnServer,
   stopVpnServer,
@@ -262,6 +263,12 @@ export default function App() {
     await loadAllData(true);
   };
 
+  const handleActivateProfile = async (id: string) => {
+    await activateProfile(id);
+    showToast('VPN profile activated. WireGuard will restore the peer shortly.');
+    await loadAllData(true);
+  };
+
   const handleDeleteProfile = async (id: string) => {
     await deleteProfile(id);
     showToast('VPN profile removed and IP released');
@@ -380,6 +387,7 @@ export default function App() {
                   onCreateProfile={handleCreateProfile}
                   onUpdateProfile={handleUpdateProfile}
                   onRevokeProfile={handleRevokeProfile}
+                  onActivateProfile={handleActivateProfile}
                   onDeleteProfile={handleDeleteProfile}
                   onDownloadConfig={handleDownloadConfig}
                   isCreateOpen={isCreateProfileOpen}
@@ -443,6 +451,10 @@ export default function App() {
         }}
         onRevoke={(p) => {
           handleRevokeProfile(p.id);
+          setInspectedProfile(null);
+        }}
+        onActivate={(p) => {
+          handleActivateProfile(p.id);
           setInspectedProfile(null);
         }}
         onEdit={(p) => {

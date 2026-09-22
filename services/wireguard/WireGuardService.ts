@@ -130,4 +130,9 @@ export interface IWireGuardService {
    * Restarts the WireGuard interface/service
    */
   restartServer(): Promise<boolean>;
+
+  /**
+   * Synchronizes expected peers with the live WireGuard state
+   */
+  syncPeers(expectedPeers: { publicKey: string; allowedIPs: string[]; endpoint?: string; status: string }[]): Promise<{ added: number; removed: number; failed: number }>;
 }

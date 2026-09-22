@@ -23,6 +23,7 @@ interface ProfileDetailModalProps {
   onDownloadConfig: (profile: VpnProfile) => void;
   onShowQr: (profile: VpnProfile) => void;
   onRevoke: (profile: VpnProfile) => void;
+  onActivate: (profile: VpnProfile) => void;
   onEdit: (profile: VpnProfile) => void;
 }
 
@@ -33,6 +34,7 @@ export const ProfileDetailModal: React.FC<ProfileDetailModalProps> = ({
   onDownloadConfig,
   onShowQr,
   onRevoke,
+  onActivate,
   onEdit,
 }) => {
   if (!profile) return null;
@@ -227,6 +229,16 @@ export const ProfileDetailModal: React.FC<ProfileDetailModalProps> = ({
               >
                 <ShieldAlert className="w-3.5 h-3.5" />
                 Revoke Access
+              </button>
+            )}
+            {(profile.status === 'revoked' || profile.status === 'inactive') && (
+              <button
+                id="btn-modal-activate-profile"
+                onClick={() => onActivate(profile)}
+                className="inline-flex items-center gap-1.5 px-3 py-2 bg-green-50 hover:bg-green-100 text-green-700 border border-green-200 rounded-lg text-xs font-semibold shadow-xs transition-colors"
+              >
+                <ShieldAlert className="w-3.5 h-3.5" />
+                Activate Access
               </button>
             )}
           </div>

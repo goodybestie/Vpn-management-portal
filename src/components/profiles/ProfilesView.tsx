@@ -30,6 +30,7 @@ interface ProfilesViewProps {
   onCreateProfile: (data: any) => Promise<void>;
   onUpdateProfile: (id: string, data: any) => Promise<void>;
   onRevokeProfile: (id: string) => Promise<void>;
+  onActivateProfile: (id: string) => Promise<void>;
   onDeleteProfile: (id: string) => Promise<void>;
   onDownloadConfig: (profile: VpnProfile) => void;
   isCreateOpen: boolean;
@@ -42,6 +43,7 @@ export const ProfilesView: React.FC<ProfilesViewProps> = ({
   onCreateProfile,
   onUpdateProfile,
   onRevokeProfile,
+  onActivateProfile,
   onDeleteProfile,
   onDownloadConfig,
   isCreateOpen,
@@ -59,6 +61,7 @@ export const ProfilesView: React.FC<ProfilesViewProps> = ({
 
   // Destructive Confirmation Modals
   const [revokeTarget, setRevokeTarget] = useState<VpnProfile | null>(null);
+  const [activateTarget, setActivateTarget] = useState<VpnProfile | null>(null);
   const [deleteTarget, setDeleteTarget] = useState<VpnProfile | null>(null);
   const [isProcessingAction, setIsProcessingAction] = useState(false);
 
@@ -89,6 +92,23 @@ export const ProfilesView: React.FC<ProfilesViewProps> = ({
       if (viewModalOpen && selectedProfile?.id === revokeTarget.id) {
         setViewModalOpen(false);
       }
+    } finally {
+      setIsProcessingAction(false);
+    }
+  };
+
+  const handleActivateConfirm = async () => {
+    if (!activateTarget) return;
+    setIsProcessingAction(true);
+    try {
+      await onActivateProfile(activateTarget.id);
+      setActivateTarget(null);
+      if (viewModalOpen && selectedProfile?.id === activateTarget.id) {
+        setViewModalOpen(false);
+      }
+    } catch (err) {
+      console.error('Failed to activate profile:', err);
+      alert('An error occurred while activating the profile. Please check the console and ensure the server was restarted.');
     } finally {
       setIsProcessingAction(false);
     }
@@ -323,6 +343,17 @@ export const ProfilesView: React.FC<ProfilesViewProps> = ({
                             <ShieldAlert className="w-3.5 h-3.5" />
                           </button>
                         )}
+                        {/* Activate */}
+                        {(p.status === 'revoked' || p.status === 'inactive') && (
+                          <button
+                            id={`btn-activate-${p.id}`}
+                            onClick={() => setActivateTarget(p)}
+                            className="p-1.5 rounded-md text-slate-500 hover:text-green-700 hover:bg-green-50 transition-colors"
+                            title="Activate VPN Access"
+                          >
+                            <CheckCircle2 className="w-3.5 h-3.5" />
+                          </button>
+                        )}
 
                         {/* Delete */}
                         <button
@@ -387,6 +418,7 @@ export const ProfilesView: React.FC<ProfilesViewProps> = ({
           setQrModalOpen(true);
         }}
         onRevoke={(p) => setRevokeTarget(p)}
+        onActivate={(p) => setActivateTarget(p)}
         onEdit={(p) => {
           setViewModalOpen(false);
           setSelectedProfile(p);
@@ -415,6 +447,19 @@ export const ProfilesView: React.FC<ProfilesViewProps> = ({
         confirmLabel="Revoke Access"
         isDestructive={true}
         type="revoke"
+        isLoading={isProcessingAction}
+      />
+
+      {/* Confirm Activate Dialog */}
+      <ConfirmDialog
+        id="dialog-confirm-activate"
+        isOpen={!!activateTarget}
+        onClose={() => setActivateTarget(null)}
+        onConfirm={handleActivateConfirm}
+        title="Activate WireGuard Peer Access?"
+        message={`Are you sure you want to activate VPN access for ${activateTarget?.fullName} (${activateTarget?.studentId})? The public key will be registered with the WireGuard interface and their connection will be restored.`}
+        confirmLabel="Activate Access"
+        isDestructive={false}
         isLoading={isProcessingAction}
       />
 

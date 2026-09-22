@@ -52,6 +52,7 @@ export class ClientSyncService {
    */
   private connectionStateMap = new Map<string, PeerConnectionStatus>();
   private isInitialized = false;
+  private isReconciling = false;
 
   /**
    * Configurable handshake timeout threshold (in seconds).
@@ -66,6 +67,43 @@ export class ClientSyncService {
       }
     }
     return 180;
+  }
+
+  /**
+   * Synchronizes SQLite profiles with WireGuard live state
+   */
+  async reconcileWireGuardState(service: IWireGuardService) {
+    if (this.isReconciling) return;
+    this.isReconciling = true;
+
+    try {
+      const profiles = dbService.getProfiles();
+      const expectedPeers = profiles.map(p => ({
+        publicKey: p.publicKey,
+        allowedIPs: [p.vpnIp.includes('/') ? p.vpnIp : `${p.vpnIp}/32`],
+        endpoint: p.endpoint || undefined,
+        status: p.status.toLowerCase(),
+      }));
+
+      const { added, removed, failed } = await service.syncPeers(expectedPeers);
+
+      if (added > 0 || removed > 0) {
+        await prisma.auditLog.create({
+          data: {
+            action: 'VPN_STATE_RECONCILED',
+            description: `Reconciler synced state: ${added} added, ${removed} removed, ${failed} failed.`,
+            actor: 'SYSTEM',
+            targetType: 'VPN_SYSTEM',
+            targetId: 'wireguard-service',
+            metadata: JSON.stringify({ added, removed, failed }),
+          }
+        }).catch(() => {});
+      }
+    } catch (error) {
+      console.error('[Reconciler] Failed to reconcile WireGuard state:', error);
+    } finally {
+      this.isReconciling = false;
+    }
   }
 
   /**
@@ -251,6 +289,10 @@ export class ClientSyncService {
     connectionEvents: number;
   }> {
     const activeService = service || (await wireGuardFactory.resolveService());
+    
+    // Reconcile state before polling
+    await this.reconcileWireGuardState(activeService);
+
     const peers = await activeService.getPeers().catch(() => [] as WireGuardPeer[]);
     const timeoutSeconds = this.getHandshakeTimeoutSeconds();
 

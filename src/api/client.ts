@@ -134,6 +134,13 @@ export async function revokeProfile(id: string): Promise<{ success: boolean; pro
   return json;
 }
 
+export async function activateProfile(id: string): Promise<{ success: boolean; profile: VpnProfile }> {
+  const res = await apiFetch(`/api/profiles/${id}/activate`, { method: 'POST' });
+  const json = await res.json();
+  if (!res.ok) throw new Error(json.error || 'Failed to activate VPN profile');
+  return json;
+}
+
 export async function deleteProfile(id: string): Promise<{ success: boolean }> {
   const res = await apiFetch(`/api/profiles/${id}`, { method: 'DELETE' });
   const json = await res.json();

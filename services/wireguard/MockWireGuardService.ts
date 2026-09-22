@@ -274,4 +274,8 @@ export class MockWireGuardService implements IWireGuardService {
     this.isOnline = true;
     return true;
   }
+
+  async syncPeers(expectedPeers: { publicKey: string; allowedIPs: string[]; endpoint?: string; status: string }[]): Promise<{ added: number; removed: number; failed: number }> {
+    return { added: 0, removed: 0, failed: 0 };
+  }
 }
